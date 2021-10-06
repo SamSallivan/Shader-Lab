@@ -19,7 +19,9 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
+    m_Ints: []
     m_Floats:
-    - _morph: 0
-    - _radius: 0.7
+    - _morph: 0.638
+    - _radius: -0.85
     m_Colors: []
+  m_BuildTextureStacks: []
