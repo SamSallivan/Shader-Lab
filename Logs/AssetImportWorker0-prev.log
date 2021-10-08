@@ -15,11 +15,11 @@ C:/Users/57048/桌面/Shader-Lab
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50829
+61109
 Successfully changed project path to: C:/Users/57048/桌面/Shader-Lab
 C:/Users/57048/桌面/Shader-Lab
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 62.08 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.19f1 (5f5eb8bbdc25)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002940 seconds.
+Registered in 0.005254 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 51.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 33.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.066 seconds
+- Completed reload, in  1.451 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2068ms)
-		BeginReloadAssembly (112ms)
+	ReloadAssembly (1452ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (783ms)
-			LoadAssemblies (109ms)
+		EndReloadAssembly (484ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (305ms)
+			SetupTypeCache (208ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (344ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (188ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (51ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (207ms)
-				ProcessInitializeOnLoadMethodAttributes (69ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011345 seconds.
+Registered in 0.003496 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.737 seconds
+- Completed reload, in  1.221 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1738ms)
-		BeginReloadAssembly (308ms)
+	ReloadAssembly (1222ms)
+		BeginReloadAssembly (234ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1298ms)
-			LoadAssemblies (168ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (909ms)
+			LoadAssemblies (123ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (450ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (515ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (318ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (409ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1455 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 72.3 MB.
+System memory in use before: 72.4 MB.
 System memory in use after: 72.4 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1905.
-Total: 3.850900 ms (FindLiveObjects: 0.156500 ms CreateObjectMapping: 0.057700 ms MarkObjects: 3.530100 ms  DeleteObjects: 0.104900 ms)
+Total: 5.719300 ms (FindLiveObjects: 0.282000 ms CreateObjectMapping: 0.196100 ms MarkObjects: 5.128700 ms  DeleteObjects: 0.111400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,181 +134,66 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/vertex color.shader
-  artifactKey: Guid(9f4dc5a2f17f14279a2ef2de7d2af120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/vertex color.shader using Guid(9f4dc5a2f17f14279a2ef2de7d2af120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963acfc6545515470a240387c1688c94') in 0.063599 seconds 
+  path: Assets/topics/05 mesh data and vertex operations/models
+  artifactKey: Guid(1cc9e37bd748b374b95ac78e7b05e608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/05 mesh data and vertex operations/models using Guid(1cc9e37bd748b374b95ac78e7b05e608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53494904046a2fbfb6812d6ae76a300d') in 0.012129 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/vertex displacement.shader
-  artifactKey: Guid(dbc188356851d4798a4d8ab74ff04c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/vertex displacement.shader using Guid(dbc188356851d4798a4d8ab74ff04c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771c82a2be0aebf457e4ce0567d18d5e') in 0.008627 seconds 
+  Time since last request: 0.000345 seconds.
+  path: Assets/topics/05 mesh data and vertex operations/shaders
+  artifactKey: Guid(b5a2006753d156642b45cb6f0d72e4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/05 mesh data and vertex operations/shaders using Guid(b5a2006753d156642b45cb6f0d72e4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fddc89014cc45404004643572bb915d') in 0.007554 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.894243 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/vertex displacement.shader
-  artifactKey: Guid(dbc188356851d4798a4d8ab74ff04c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/vertex displacement.shader using Guid(dbc188356851d4798a4d8ab74ff04c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffc5d95f05d684541b556fdea825ca9') in 0.004450 seconds 
+  Time since last request: 0.000570 seconds.
+  path: Assets/topics/05 mesh data and vertex operations/materials
+  artifactKey: Guid(00d5a1d7caa4e154a987037ef83a3765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/05 mesh data and vertex operations/materials using Guid(00d5a1d7caa4e154a987037ef83a3765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a80272e4bfb6448476078f8c511405') in 0.008643 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 771.311798 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/vertex displacement.shader
-  artifactKey: Guid(dbc188356851d4798a4d8ab74ff04c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/vertex displacement.shader using Guid(dbc188356851d4798a4d8ab74ff04c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a970244bb185636fb8936baaf08c2f92') in 0.006614 seconds 
+  Time since last request: 170.934014 seconds.
+  path: Assets/topics/05 mesh data and vertex operations/scene/mesh data and vertex operations.unity
+  artifactKey: Guid(e83fb7f11009b49fea4023b7a2517aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/05 mesh data and vertex operations/scene/mesh data and vertex operations.unity using Guid(e83fb7f11009b49fea4023b7a2517aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07d563b2514ccaa3d218db723f227d0') in 0.025413 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 315.107600 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/vertex animation.shader
-  artifactKey: Guid(6ab498c09d16947f9aeb00cea96539e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/vertex animation.shader using Guid(6ab498c09d16947f9aeb00cea96539e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180b7ed9b41fddb81d62c500add9ac11') in 0.011662 seconds 
+  Time since last request: 21.464095 seconds.
+  path: Assets/topics/05 mesh data and vertex operations/materials/arbitrary data.mat
+  artifactKey: Guid(a463431f135884c1a98c107c2cedcff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/05 mesh data and vertex operations/materials/arbitrary data.mat using Guid(a463431f135884c1a98c107c2cedcff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca9cb210d18b52601bf8481616c2c82') in 0.143981 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.114586 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/vertex animation.shader
-  artifactKey: Guid(6ab498c09d16947f9aeb00cea96539e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/vertex animation.shader using Guid(6ab498c09d16947f9aeb00cea96539e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d8cb2c3b93f2a95e0f8885dbe03b0d') in 0.005250 seconds 
+  Time since last request: 0.000327 seconds.
+  path: Assets/topics/05 mesh data and vertex operations/materials/vertex displacement.mat
+  artifactKey: Guid(0735f233edfad4d93bcf42349215b5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/05 mesh data and vertex operations/materials/vertex displacement.mat using Guid(0735f233edfad4d93bcf42349215b5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3004ad6c37848706dfdd3dc3c2c2eea1') in 0.027450 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 579.434910 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/vertex animation jitter.shader
-  artifactKey: Guid(c42b0690ff8664d72a552e44a5c024ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/vertex animation jitter.shader using Guid(c42b0690ff8664d72a552e44a5c024ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf21db7c7b142d342ec10574f3365d1') in 0.004598 seconds 
+  Time since last request: 0.000611 seconds.
+  path: Assets/topics/05 mesh data and vertex operations/materials/vertex animation jitter.mat
+  artifactKey: Guid(08c91461291524831ba3529ebb3858e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/05 mesh data and vertex operations/materials/vertex animation jitter.mat using Guid(08c91461291524831ba3529ebb3858e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4f321df38991810cfb2f153b586e68') in 0.025443 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.175514 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/vertex animation jitter.shader
-  artifactKey: Guid(c42b0690ff8664d72a552e44a5c024ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/vertex animation jitter.shader using Guid(c42b0690ff8664d72a552e44a5c024ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0c7f9f370574c94cdd01ca68397b3c') in 0.009456 seconds 
+  Time since last request: 0.000547 seconds.
+  path: Assets/topics/05 mesh data and vertex operations/materials/vertex animation.mat
+  artifactKey: Guid(13058ebbd904d4641b6861c8d4aa9891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/05 mesh data and vertex operations/materials/vertex animation.mat using Guid(13058ebbd904d4641b6861c8d4aa9891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d195793cfe0f5f4bdba62bbb1aa16dc') in 0.032957 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 296.531116 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/vertex animation jitter.shader
-  artifactKey: Guid(c42b0690ff8664d72a552e44a5c024ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/vertex animation jitter.shader using Guid(c42b0690ff8664d72a552e44a5c024ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac37123b2795ab6417713ffcf74e5a9c') in 0.014625 seconds 
+  Time since last request: 0.000372 seconds.
+  path: Assets/topics/05 mesh data and vertex operations/materials/cube to sphere.mat
+  artifactKey: Guid(b0e401aa3718a45048abe922e77c837d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/05 mesh data and vertex operations/materials/cube to sphere.mat using Guid(b0e401aa3718a45048abe922e77c837d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f288dadfb9615f22bc1c726ad94b1687') in 0.021480 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 81.166483 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/vertex animation jitter.shader
-  artifactKey: Guid(c42b0690ff8664d72a552e44a5c024ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/vertex animation jitter.shader using Guid(c42b0690ff8664d72a552e44a5c024ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28b4a90a0ea8a9b3fbc12c852c4fbf6') in 0.010117 seconds 
+  Time since last request: 0.000391 seconds.
+  path: Assets/topics/05 mesh data and vertex operations/materials/rotation and arbitrary data.mat
+  artifactKey: Guid(f5ad6e54c5c9b42758f5b7f226993b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/05 mesh data and vertex operations/materials/rotation and arbitrary data.mat using Guid(f5ad6e54c5c9b42758f5b7f226993b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d619bdbcb05dc577d451026ce2c8be3') in 0.028227 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.144357 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/vertex animation jitter.shader
-  artifactKey: Guid(c42b0690ff8664d72a552e44a5c024ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/vertex animation jitter.shader using Guid(c42b0690ff8664d72a552e44a5c024ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8feff6d52c16682a602b3d53bdbfba43') in 0.014032 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.288809 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/vertex animation jitter.shader
-  artifactKey: Guid(c42b0690ff8664d72a552e44a5c024ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/vertex animation jitter.shader using Guid(c42b0690ff8664d72a552e44a5c024ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd586affbb279074a3254de1530b9c2') in 0.009766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.476504 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/vertex animation jitter.shader
-  artifactKey: Guid(c42b0690ff8664d72a552e44a5c024ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/vertex animation jitter.shader using Guid(c42b0690ff8664d72a552e44a5c024ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c004329a00e7bd0eb3d0252d28ab9d') in 0.005039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 438.359130 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/vertex animation jitter.shader
-  artifactKey: Guid(c42b0690ff8664d72a552e44a5c024ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/vertex animation jitter.shader using Guid(c42b0690ff8664d72a552e44a5c024ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ed9ca2cf23b2260fd1329e0b2a6dfb') in 0.009936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 133.845186 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader
-  artifactKey: Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader using Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e86168904bc89f345b9bd3a3a4f836') in 0.013052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 700.337476 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader
-  artifactKey: Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader using Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993d41c4bd5470c03f1fe116e792f5b8') in 0.006192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.655130 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader
-  artifactKey: Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader using Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037b9560d59b22e8182af77204703741') in 0.011848 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.202699 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader
-  artifactKey: Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader using Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed017eecbf2b2b1045cbfbff64ee0b2f') in 0.009966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.928781 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader
-  artifactKey: Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader using Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbde35cea0db1e41439581918bb973db') in 0.006861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.756689 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader
-  artifactKey: Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader using Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5973c6a6f6db82d63b255617a45dca1') in 0.003957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 113.578236 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader
-  artifactKey: Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader using Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22692583c09930eb885ff2d139edada6') in 0.004564 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.250570 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader
-  artifactKey: Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader using Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760004e18f7383b340abbcac3e9e0ac1') in 0.005216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.940001 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader
-  artifactKey: Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader using Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8e441c36085a6f6263a7abd0cce96a') in 0.010817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.239514 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader
-  artifactKey: Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader using Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce240135475fda9fac56960fa3607f71') in 0.010120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.389987 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader
-  artifactKey: Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader using Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc2aad97ce3f41c6a780d8f7dcf86b8') in 0.005464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 111.672324 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader
-  artifactKey: Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader using Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9d0d5830f4df2bc057ae139ae86cf2') in 0.008927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 228.749879 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/cube to sphere.shader
-  artifactKey: Guid(7b423b7121b8244afa59d7ea632075d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/cube to sphere.shader using Guid(7b423b7121b8244afa59d7ea632075d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cc37bb109ac871f20e69ae5045e35e') in 0.017657 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.589103 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader
-  artifactKey: Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/arbitrary data.shader using Guid(b3db202fabd1744cca1efd63d59df465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ab4b29542c9a1ef58e54880ef6f376') in 0.004585 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.305526 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/rotation and arbitrary data.shader
-  artifactKey: Guid(4b4e3bba5bb0b49958f354bc35958ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/rotation and arbitrary data.shader using Guid(4b4e3bba5bb0b49958f354bc35958ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f717e0fdd650a8c28bab78721bd786') in 0.003828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 413.742504 seconds.
-  path: Assets/topics/05 mesh data and vertex operations/shaders/rotation and arbitrary data.shader
-  artifactKey: Guid(4b4e3bba5bb0b49958f354bc35958ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/05 mesh data and vertex operations/shaders/rotation and arbitrary data.shader using Guid(4b4e3bba5bb0b49958f354bc35958ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313da9c71d11f10198d2fe1ee830ad38') in 0.005242 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  Time since last request: 11.077474 seconds.
+  path: Assets/topics/05 mesh data and vertex operations/materials/NukaCola.mat
+  artifactKey: Guid(5d65d2d9245ccc84eb576a389c6333a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/05 mesh data and vertex operations/materials/NukaCola.mat using Guid(5d65d2d9245ccc84eb576a389c6333a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319715578118e5bdc32c5995b1551978') in 0.022608 seconds 
