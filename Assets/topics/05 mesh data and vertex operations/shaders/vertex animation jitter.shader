@@ -4,7 +4,7 @@
     {
         _displacement ("displacement", Range(0, 0.1)) = 0.05
         _timeScale ("time scale", Float) = 1
-        _seed ("seed", Range(0, 99999999)) = 15863157
+        _seed ("seed", Float) = 82193283
     }
 
     SubShader
@@ -18,7 +18,6 @@
             #pragma fragment frag
             #include "UnityCG.cginc"
 
-            float _scale;
             float _displacement;
             float _timeScale;
             float _seed;
@@ -26,11 +25,9 @@
             float rand (float2 uv) {
                 return frac(sin(dot(uv.xy, float2(12.9898, 78.233))) * 43758.5453123);
             }
-
-            float3 rand_vec (float3 pos, float seed) {
-                pos.x += seed / 4;
-                pos.y += seed / rand(seed);
-                pos.z += rand(seed) * pos.x;
+            
+            // create a function to return a random normalized vector
+            float3 rand_vec (float3 pos) {
                 return normalize(float3(rand(pos.xz) * 2 - 1, rand(pos.yx) * 2 - 1, rand(pos.zy) * 2 - 1));
             }
 
@@ -51,8 +48,13 @@
             {
                 Interpolators o;
 
-                v.vertex.xyz += rand_vec(v.vertex.xyz + round(_Time.y * _timeScale), _seed) * _displacement;
+                // use our ran_vec function. seed the function with the vertex position in object space
+                // add _Time within the round() function to get this value to change in discrete steps
+                float3 rVec = rand_vec(v.vertex.xyz + round(_Time.y * _timeScale));
 
+                // add our random normalized vector to our vertex position, scaled by _displacement
+                v.vertex.xyz += rVec * _displacement;
+               
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = v.uv;
                 return o;
