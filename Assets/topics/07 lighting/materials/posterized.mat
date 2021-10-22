@@ -19,16 +19,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
-    m_Ints: []
     m_Floats:
     - _diffuseLightSteps: 4.41
-    - _diffuseSteps: 8.14
+    - _diffuseSteps: 6.47
     - _gloss: 1
     - _lightSteps: 23.95
     - _specularContrast: 32
     - _specularLightSteps: 3
-    - _specularSteps: 28.51
+    - _specularSteps: 4.36
     m_Colors:
-    - _ambientColor: {r: 0.76964474, g: 0, b: 1, a: 1}
-    - _surfaceColor: {r: 1, g: 0.5518868, b: 0.766592, a: 1}
-  m_BuildTextureStacks: []
+    - _ambientColor: {r: 0.13043499, g: 0, b: 1, a: 1}
+    - _surfaceColor: {r: 1, g: 0.6635312, b: 0.6179246, a: 1}

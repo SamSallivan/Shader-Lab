@@ -1,12 +1,13 @@
 ﻿Shader "examples/week 7/posterized"
 {
-    Properties
+    Properties 
     {
-        _surfaceColor("surface color", Color) = (0.4, 0.1, 0.9)
-        _ambientColor("ambient color", Color) = (0.0, 0.0, 0.0)
-        _gloss("gloss", Range(0,1)) = 1
-        _diffuseSteps("dffuse Steps", int) = 4
-        _specularSteps("specular Steps", int) = 4
+        _surfaceColor ("surface color", Color) = (0.4, 0.1, 0.9)
+        _ambientColor ("ambient color", Color) = (0, 0, 0, 0)
+        _gloss ("gloss", Range(0,1)) = 1
+        _diffuseSteps ("diffuse steps", Int) = 4
+        _specularSteps ("specular steps", Int) = 4
+
     }
     SubShader
     {
@@ -47,10 +48,9 @@
             Interpolators vert (MeshData v)
             {
                 Interpolators o;
+                o.normal = UnityObjectToWorldNormal(v.normal);
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.posWorld = mul(unity_ObjectToWorld, v.vertex);
-                o.normal = v.normal;
-                o.normal = mul(unity_ObjectToWorld, v.normal);
 
                 return o;
             }
@@ -72,14 +72,16 @@
                 float specularFalloff = max(0, dot(normal, halfDirection));
                 specularFalloff = pow(specularFalloff, _gloss * MAX_SPECULAR_POWER + 0.0001) * _gloss;
 
-                //posterization
-                diffuseFalloff = floor(diffuseFalloff * _diffuseSteps) / _diffuseSteps;
-                specularFalloff = floor(specularFalloff * _specularSteps) / _specularSteps;
+                // posterization
+                float dSteps = max(2, _diffuseSteps);
+                float sSteps = max(2, _specularSteps);
+                diffuseFalloff = floor(diffuseFalloff * dSteps) / dSteps;
+                specularFalloff = floor(specularFalloff * sSteps) / sSteps;
 
                 float3 diffuse = diffuseFalloff * _surfaceColor * lightColor;
                 float3 specular = specularFalloff * lightColor;
+                
                 float3 ambient = _ambientColor * 0.1;
-
                 color = diffuse + specular + ambient;
 
                 return float4(color, 1.0);

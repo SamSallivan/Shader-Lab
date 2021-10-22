@@ -50,11 +50,11 @@
                 float3 lightColor = _LightColor0; // includes intensity
 
                 float falloff = max(0, dot(normal, lightDirection));
-
-                falloff = pow(falloff * 0.5f + 0.5f,2);
+                
+                // half lambert
+                falloff = pow(falloff * 0.5 + 0.5, 2);
 
                 color = falloff * _surfaceColor * lightColor;
-                
 
                 return float4(color, 1.0);
             }

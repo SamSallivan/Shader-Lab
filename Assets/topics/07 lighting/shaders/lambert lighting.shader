@@ -1,12 +1,12 @@
 ﻿Shader "examples/week 7/lambert"
 {
-    Properties
+    Properties 
     {
-        _surfaceColor("Surface Color", Color) = (1,1,1,1)
+        _surfaceColor ("surface color", Color) = (1, 1, 1, 1)
     }
-        SubShader
+    SubShader
     {
-        Tags {"LightMode" = "ForwardBase"}
+        Tags { "LightMode" = "ForwardBase" }
 
         Pass
         {
@@ -14,10 +14,10 @@
             #pragma vertex vert
             #pragma fragment frag
             #include "UnityCG.cginc"
-            //#include "UnityLighting.cginc"
-            #include "UnityLightingCommon.cginc"
+            #include "Lighting.cginc"
+            // #include "UnityLightingCommon.cginc"
 
-            float4 _surfaceColor;
+            float3 _surfaceColor;
 
             struct MeshData
             {
@@ -40,13 +40,12 @@
             }
 
             float4 frag (Interpolators i) : SV_Target
-            { 
+            {
                 float3 color = 0;
-                float3 lightDirection = normalize(float3(1, 1, 1));
-                //float3 lightDirection = _WorldSpaceLightPos0;
+                float3 lightDirection = _WorldSpaceLightPos0;
                 float3 lightColor = _LightColor0;
 
-                float falloff = max(0,dot(normalize(i.normal), lightDirection));
+                float falloff = max(0, dot(normalize(i.normal), lightDirection));
 
                 color = falloff * _surfaceColor * lightColor;
 

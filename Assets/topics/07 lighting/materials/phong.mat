@@ -19,10 +19,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
-    m_Ints: []
     m_Floats:
-    - _gloss: 0.233
+    - _gloss: 0.83
     - _specularContrast: 32
     m_Colors:
-    - _surfaceColor: {r: 0.7607843, g: 0.97981846, b: 1, a: 1}
-  m_BuildTextureStacks: []
+    - _surfaceColor: {r: 0.7607843, g: 0.9843137, b: 1, a: 1}

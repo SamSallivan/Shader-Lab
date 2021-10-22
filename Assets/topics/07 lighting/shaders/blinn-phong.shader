@@ -64,11 +64,10 @@
                 float3 viewDirection = normalize(_WorldSpaceCameraPos - i.worldPos);
                 float3 halfDirection = normalize(viewDirection + lightDirection);
 
-                float specularFallout = max(0, dot(halfDirection, normal));
+                float specularFalloff = max(0, dot(halfDirection, normal));
+                specularFalloff = pow(specularFalloff, MAX_SPECULAR_POWER * _gloss + 0.0001) * _gloss;
 
-                specularFallout = pow(specularFallout, MAX_SPECULAR_POWER + _gloss +0.000001) * _gloss;
-
-                float3 specular = specularFallout * lightColor;
+                float3 specular = specularFalloff * lightColor;
 
                 color = diffuse + specular;
 
