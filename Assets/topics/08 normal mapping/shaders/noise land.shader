@@ -9,7 +9,8 @@
         _lowColor ("low color", Color) = (1, 1, 1, 1)
         _lowElevation ("low elevation", Float) = 3
         _scale ("noise scale", Range(2, 50)) = 15.5
-        _displacement ("displacement", Range(0, 0.75)) = 0.33
+        _displacement ("displacement", Range(0, 10)) = 0.33
+        _tex("texture", 2D) = "white" {}
     }
 
     SubShader
@@ -31,6 +32,7 @@
             float _lowElevation;
             float _scale;
             float _displacement;
+            sampler2D _tex;
 
             float rand (float2 uv) {
                 return frac(sin(dot(uv.xy, float2(12.9898, 78.233))) * 43758.5453123);
@@ -91,8 +93,8 @@
                 float elevation = i.worldPos.y;
                 float3 color = lerp(_lowColor, _midColor, smoothstep(_lowElevation, _midElevation, elevation));
                 color = lerp(color, _highColor, smoothstep(_midElevation, _highElevation, elevation));
-
-                return float4(color, 1.0);
+                float3 tex = tex2D(_tex, i.uv);
+                return float4(tex, 1.0);
             }
             ENDCG
         }

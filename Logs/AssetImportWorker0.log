@@ -15,11 +15,11 @@ C:/Users/57048/桌面/Shader-Lab
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65321
+51522
 Successfully changed project path to: C:/Users/57048/桌面/Shader-Lab
 C:/Users/57048/桌面/Shader-Lab
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 128.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 183.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.19f1 (5f5eb8bbdc25)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,154 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005450 seconds.
+Registered in 0.003411 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 118.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 111.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.191 seconds
+- Completed reload, in  2.517 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3192ms)
-		BeginReloadAssembly (201ms)
+	ReloadAssembly (2517ms)
+		BeginReloadAssembly (154ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1275ms)
-			LoadAssemblies (197ms)
+		EndReloadAssembly (915ms)
+			LoadAssemblies (151ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (506ms)
+			SetupTypeCache (404ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (92ms)
-			SetupLoadedEditorAssemblies (520ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (342ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (118ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (289ms)
-				ProcessInitializeOnLoadMethodAttributes (89ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005559 seconds.
+Registered in 0.003569 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.963 seconds
+- Completed reload, in  2.054 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2965ms)
-		BeginReloadAssembly (432ms)
+	ReloadAssembly (2054ms)
+		BeginReloadAssembly (258ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (2396ms)
-			LoadAssemblies (274ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (878ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (221ms)
-			SetupLoadedEditorAssemblies (807ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (122ms)
-				ProcessInitializeOnLoadAttributes (625ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
-Refreshing native plugins compatible for Editor in 2.12 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2126 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.6 MB.
-System memory in use after: 120.7 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2577.
-Total: 6.481400 ms (FindLiveObjects: 0.410600 ms CreateObjectMapping: 0.113300 ms MarkObjects: 5.838500 ms  DeleteObjects: 0.115900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/topics/07 lighting/shaders/Cel Shading.shader
-  artifactKey: Guid(a988785b1a341524799620abf37b32b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/07 lighting/shaders/Cel Shading.shader using Guid(a988785b1a341524799620abf37b32b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398f61316ddcacdcd190e9f21380103b') in 0.119729 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003577 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.365 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1366ms)
-		BeginReloadAssembly (154ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (1135ms)
-			LoadAssemblies (122ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1667ms)
+			LoadAssemblies (182ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (387ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (411ms)
+			SetupTypeCache (630ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (130ms)
+			SetupLoadedEditorAssemblies (561ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (306ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (8ms)
-				EditorAssembliesLoaded (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (445ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1868 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.5 MB.
-System memory in use after: 95.4 MB.
+Unloading 2141 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.4 MB.
+System memory in use after: 122.5 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2580.
-Total: 3.401800 ms (FindLiveObjects: 0.181100 ms CreateObjectMapping: 0.070000 ms MarkObjects: 2.987500 ms  DeleteObjects: 0.162300 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2592.
+Total: 7.418800 ms (FindLiveObjects: 0.301200 ms CreateObjectMapping: 0.658900 ms MarkObjects: 6.383100 ms  DeleteObjects: 0.074200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -196,1136 +134,489 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 202.615285 seconds.
-  path: Assets/topics/08 normal mapping/materials/displacement.mat
-  artifactKey: Guid(d63664c7d2f434742ae42175ff5d2c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/materials/displacement.mat using Guid(d63664c7d2f434742ae42175ff5d2c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcfbbc1bafe66a257499efca7873fea2') in 0.298296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/topics/08 normal mapping/materials/refraction.mat
-  artifactKey: Guid(54b939e58d67d4fcf8d15223cc60145a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/materials/refraction.mat using Guid(54b939e58d67d4fcf8d15223cc60145a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1abf7cd9d0a79a6488fec1ba3cb57d4') in 0.124151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/topics/08 normal mapping/materials/water.mat
-  artifactKey: Guid(13ba06704b7534252ac67f84136dc19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/materials/water.mat using Guid(13ba06704b7534252ac67f84136dc19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdccd6d12f155d90a5a7861f978362a6') in 0.049578 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000748 seconds.
-  path: Assets/topics/08 normal mapping/materials/normal mapping.mat
-  artifactKey: Guid(6f5b4cc46968f49e8ba7970abfc8133e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/materials/normal mapping.mat using Guid(6f5b4cc46968f49e8ba7970abfc8133e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f9a121b7397eca61610d7818deeeb4') in 0.048713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/topics/08 normal mapping/materials/noise land.mat
-  artifactKey: Guid(9b75338b4146547a8b25c47237dbf187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/materials/noise land.mat using Guid(9b75338b4146547a8b25c47237dbf187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '649fbe6917d3c3c9de888f0dfdd671a0') in 0.038046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000451 seconds.
-  path: Assets/topics/08 normal mapping/materials/transparency cube.mat
-  artifactKey: Guid(ff513a813b9dc43839d7b22be54448c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/materials/transparency cube.mat using Guid(ff513a813b9dc43839d7b22be54448c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e6a91b81b4d402bdfc51f0324d19a7') in 0.024993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000431 seconds.
-  path: Assets/topics/08 normal mapping/materials/transparency sphere.mat
-  artifactKey: Guid(860b1261f69664530aac530a68584c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/materials/transparency sphere.mat using Guid(860b1261f69664530aac530a68584c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aee6363c149fa7ee17e11033c256a22') in 0.028907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/topics/08 normal mapping/models/sphere.fbx
-  artifactKey: Guid(ca35ec57351854331b67adefb7a4dddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/models/sphere.fbx using Guid(ca35ec57351854331b67adefb7a4dddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5abb582e9903bbd040d967c10afdfc') in 0.149516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/topics/08 normal mapping/models/plane.fbx
-  artifactKey: Guid(93cb3796446bd4690a9e54d0b59881fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/models/plane.fbx using Guid(93cb3796446bd4690a9e54d0b59881fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e598d69ca1468effffb43c89a2756752') in 0.054439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.847975 seconds.
-  path: Assets/topics/08 normal mapping/scene/normal mapping.unity
-  artifactKey: Guid(fe18dba594b8a492f836eece2457f540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/scene/normal mapping.unity using Guid(fe18dba594b8a492f836eece2457f540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97572ba05d56fd4216ea8977a1f9d827') in 0.015049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.257408 seconds.
-  path: Assets/topics/08 normal mapping/textures/rock/sbbixkp_4K_Albedo.jpg
-  artifactKey: Guid(4034495bbd23544aa893e50ef8f121ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/textures/rock/sbbixkp_4K_Albedo.jpg using Guid(4034495bbd23544aa893e50ef8f121ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b6faf8a5e2c0e3a57a7494c04489b4') in 0.099193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 77.464664 seconds.
-  path: Assets/topics/08 normal mapping/textures/glacier
-  artifactKey: Guid(5bb2aae86e1d2c041a9bda63140311bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/textures/glacier using Guid(5bb2aae86e1d2c041a9bda63140311bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c938f627fb4ca95e3d882e63c98cf6') in 0.015402 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.426036 seconds.
-  path: Assets/topics/08 normal mapping/textures/glacier/shlqci3a_4K_Albedo.jpg
-  artifactKey: Guid(cb16b24b36b9b44dab621abffe21b776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/textures/glacier/shlqci3a_4K_Albedo.jpg using Guid(cb16b24b36b9b44dab621abffe21b776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e695c8aa6eea0480a588a4bea3c13447') in 0.037118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/topics/08 normal mapping/textures/glacier/shlqci3a_4K_Displacement.jpg
-  artifactKey: Guid(317845e43b4eb43a1bb2d17b3ed0d696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/textures/glacier/shlqci3a_4K_Displacement.jpg using Guid(317845e43b4eb43a1bb2d17b3ed0d696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b5a50f12d040bbcdd5a0b6d39cb0ce') in 0.042016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/topics/08 normal mapping/textures/glacier/shlqci3a_4K_Normal.jpg
-  artifactKey: Guid(d8285627fa5ba4e20a41912a42a5ffee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/textures/glacier/shlqci3a_4K_Normal.jpg using Guid(d8285627fa5ba4e20a41912a42a5ffee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79720428ffc43d9d868b4b77cdaf3fea') in 0.064483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.986002 seconds.
-  path: Assets/topics/08 normal mapping/textures/rock/sbbixkp_4K_Displacement.jpg
-  artifactKey: Guid(725a49dd066f34ba2bb30f01516b5398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/textures/rock/sbbixkp_4K_Displacement.jpg using Guid(725a49dd066f34ba2bb30f01516b5398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20d365c492a083de9fbffc72455a226') in 0.032341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000717 seconds.
-  path: Assets/topics/08 normal mapping/textures/rock/sbbixkp_4K_Normal.jpg
-  artifactKey: Guid(964369987c99b476eb34aa4e5479eec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/textures/rock/sbbixkp_4K_Normal.jpg using Guid(964369987c99b476eb34aa4e5479eec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040dbfc6fe48143116e96911ae774484') in 0.063473 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.931719 seconds.
-  path: Assets/topics/08 normal mapping/textures/water/Water_002_COLOR.jpg
-  artifactKey: Guid(39385e1ecf24c4d31baa1fa25828ba12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/textures/water/Water_002_COLOR.jpg using Guid(39385e1ecf24c4d31baa1fa25828ba12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3ccde90aa4d7b270da91c52ddbe191') in 0.015813 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/topics/08 normal mapping/textures/water/Water_002_DISP.png
-  artifactKey: Guid(44fabf7668d38457693df5e26dde988d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/textures/water/Water_002_DISP.png using Guid(44fabf7668d38457693df5e26dde988d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f44d7799020e92f4b7c75b95e132b28') in 0.024791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/topics/08 normal mapping/textures/water/Water_002_NORM.jpg
-  artifactKey: Guid(97550067fb33948389b156a689041852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/textures/water/Water_002_NORM.jpg using Guid(97550067fb33948389b156a689041852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214101e2630a3c5955f69ae0e3c8ddc6') in 0.047659 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.088842 seconds.
-  path: Assets/topics/08 normal mapping/shaders/water.shader
-  artifactKey: Guid(559585ea39f1d4bc6b605a9f3f32f478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/water.shader using Guid(559585ea39f1d4bc6b605a9f3f32f478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d94876179ee1dd6a7960cc30b71c21') in 0.008930 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.381542 seconds.
-  path: Assets/topics/08 normal mapping/shaders/transparency.shader
-  artifactKey: Guid(f8b7071c1af094a74b0c2c5403f4e83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/transparency.shader using Guid(f8b7071c1af094a74b0c2c5403f4e83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be412fe329488a95aa05e83ddc190f8b') in 0.018450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.490419 seconds.
-  path: Assets/topics/08 normal mapping/shaders/refraction.shader
-  artifactKey: Guid(62adc40e33ef44bb7a98bcc1e9fd8a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/refraction.shader using Guid(62adc40e33ef44bb7a98bcc1e9fd8a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3ae220f444a155ce9be273cbe5fedc') in 0.004244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.361345 seconds.
-  path: Assets/topics/08 normal mapping/shaders/normal mapping.shader
-  artifactKey: Guid(f0c37ed74753b43e7b83d207e7464691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/normal mapping.shader using Guid(f0c37ed74753b43e7b83d207e7464691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb78fd555006f90cdc10cc9415b5bab6') in 0.008991 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.346290 seconds.
-  path: Assets/topics/08 normal mapping/shaders/noise land.shader
-  artifactKey: Guid(66ebf801dfd794195b97d36d5a7c716f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/noise land.shader using Guid(66ebf801dfd794195b97d36d5a7c716f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60c97bcc7f817463da3da563649c74b') in 0.004630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.308879 seconds.
-  path: Assets/topics/08 normal mapping/shaders/displacement.shader
-  artifactKey: Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/displacement.shader using Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3663063b7a5c43f9eeeed6a30ff5220b') in 0.008009 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1397.500708 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/SelectionAsTemplate.png
-  artifactKey: Guid(8148796947da07d49906f1201f417a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/SelectionAsTemplate.png using Guid(8148796947da07d49906f1201f417a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8c8e2b4f627ce5856dc8919712d6c0') in 0.049457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotRightOff.png
-  artifactKey: Guid(bfcecef29876cc54db85363cf2feebb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotRightOff.png using Guid(bfcecef29876cc54db85363cf2feebb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08d5152a9bd158bf086f208ef46a33a') in 0.024756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MinimizeWindow.png
-  artifactKey: Guid(2aae9a02747d74d46bf98a15ac5c9b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MinimizeWindow.png using Guid(2aae9a02747d74d46bf98a15ac5c9b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c704b7d2446161df9b57b12ab5494b9') in 0.038034 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000483 seconds.
-  path: Assets/topics/01 color/textures/mask01.png
-  artifactKey: Guid(b0b67f7adb8fd9f4bb4afeee2273c443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/01 color/textures/mask01.png using Guid(b0b67f7adb8fd9f4bb4afeee2273c443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea74a1e9c52acb0ddae174a560bb50d2') in 0.051904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/WhitePortSolid.png
-  artifactKey: Guid(8113366f9f7cec647878e3af2fb98922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/WhitePortSolid.png using Guid(8113366f9f7cec647878e3af2fb98922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd30ffa4eda8c47319f18d1d9b9b7c77') in 0.026686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000680 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotMidOn.png
-  artifactKey: Guid(133e79bed45185d408f4c5410f89dded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotMidOn.png using Guid(133e79bed45185d408f4c5410f89dded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcfe5abfd7c18da8f2e1cf2e7985aca') in 0.027504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000839 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/WireNodeSelection.png
-  artifactKey: Guid(bfe0b03d5d60cea4f9d4b2d1d121e592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/WireNodeSelection.png using Guid(bfe0b03d5d60cea4f9d4b2d1d121e592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace6e86518e0d5873d139dcf703336a2') in 0.029281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/OpenSourceCodeOFF.PNG
-  artifactKey: Guid(f7e8834b42791124095a8b7f2d4daac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/OpenSourceCodeOFF.PNG using Guid(f7e8834b42791124095a8b7f2d4daac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b95368dfa304e0ee391d7c4dda1d811') in 0.029103 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000474 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/Icon64.png
-  artifactKey: Guid(2c6536772776dd84f872779990273bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/Icon64.png using Guid(2c6536772776dd84f872779990273bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17652bb5e434e1d2102bea210a52664') in 0.030130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000515 seconds.
-  path: Assets/topics/01 color/textures/ocean01.png
-  artifactKey: Guid(881af23c729a443499e5a6ef79468994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/01 color/textures/ocean01.png using Guid(881af23c729a443499e5a6ef79468994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204ad4e575cffbd9f269d18afe598286') in 0.040698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001175 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/TransparentPixel.png
-  artifactKey: Guid(1004d06b4b28f5943abdf2313a22790a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/TransparentPixel.png using Guid(1004d06b4b28f5943abdf2313a22790a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5cfccb3297b293a746657b0712614a') in 0.025812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000650 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ShaderSelectON.png
-  artifactKey: Guid(e737e4bfd0859a946b0c5feddb61d29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ShaderSelectON.png using Guid(e737e4bfd0859a946b0c5feddb61d29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532dfa152eb862f9e81c3e087462bfe5') in 0.036152 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotMidOnHover.png
-  artifactKey: Guid(542d7546736ddd244a145ef7103678fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotMidOnHover.png using Guid(542d7546736ddd244a145ef7103678fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db44ec2b07431988bc20e8572896b513') in 0.033133 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ResetInspectorIcon.png
-  artifactKey: Guid(a51794475a883744db8d524cee84e5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ResetInspectorIcon.png using Guid(a51794475a883744db8d524cee84e5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403776f17cc60015511cbf3ad2603722') in 0.035485 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000908 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ItemCleanupON.png
-  artifactKey: Guid(f4d31aa109c919d4595094f627510932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ItemCleanupON.png using Guid(f4d31aa109c919d4595094f627510932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053e329bb471a6381bade956734f1281') in 0.036034 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/topics/01 color/textures/mask-4.png
-  artifactKey: Guid(fe2610615f63a4a079f7499dd2858c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/01 color/textures/mask-4.png using Guid(fe2610615f63a4a079f7499dd2858c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc952784bcaeeadeee12435b8fffc86e') in 0.036732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/SaveON.png
-  artifactKey: Guid(2c938a89586d41f4081284e4b25243c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/SaveON.png using Guid(2c938a89586d41f4081284e4b25243c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3832bbce63d45285573e5e277a6e5b5a') in 0.035806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000687 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/LivePending.png
-  artifactKey: Guid(e3182200efb67114eb5050f8955e1746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/LivePending.png using Guid(e3182200efb67114eb5050f8955e1746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685f06623b34122e5b30f131ad2a40a5') in 0.026002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/OpenListedShader.png
-  artifactKey: Guid(a66917730dccde947a01140dc04b9e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/OpenListedShader.png using Guid(a66917730dccde947a01140dc04b9e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8267e8c6004cae24e67fbd7747a005') in 0.038510 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ShareOFF.png
-  artifactKey: Guid(bc5bd469748466a459badfab23915cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ShareOFF.png using Guid(bc5bd469748466a459badfab23915cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5352dfcbf1c0ca921db6d86ec6374b') in 0.028050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000531 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Nodes/TextureReferenceBg.png
-  artifactKey: Guid(f9bd85ea2601b824c87556c13e852933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Nodes/TextureReferenceBg.png using Guid(f9bd85ea2601b824c87556c13e852933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bc56d9ffde7a1675cae82e044b2ce0') in 0.045629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001106 seconds.
-  path: Assets/topics/01 color/textures/mask-1.png
-  artifactKey: Guid(c7d64cc52eed744eab9515693531f1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/01 color/textures/mask-1.png using Guid(c7d64cc52eed744eab9515693531f1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34af69286c0113bb34efb64cb7f4270') in 0.046425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/TransparentOverlay.png
-  artifactKey: Guid(8c4a7fca2884fab419769ccc0355c0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/TransparentOverlay.png using Guid(8c4a7fca2884fab419769ccc0355c0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c365be9499ea34bba88879de7e68ac21') in 0.033698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000596 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/RemoveFromList.png
-  artifactKey: Guid(75f68506ba820564ea85b2620d78c097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/RemoveFromList.png using Guid(75f68506ba820564ea85b2620d78c097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e5564cd43e5756897947569a604a14') in 0.039802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001035 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/PopupPicker.png
-  artifactKey: Guid(d2384a227b4ac4943b73c8151393e502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/PopupPicker.png using Guid(d2384a227b4ac4943b73c8151393e502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bc9bde874ed42dc64b33312c7b53da') in 0.031712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderFunctionIcon.png
-  artifactKey: Guid(50be8291f9514914aa55c66c49da67cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderFunctionIcon.png using Guid(50be8291f9514914aa55c66c49da67cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f18563b9272989c37a1ce05debdf44') in 0.046149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000552 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotLeftOff.png
-  artifactKey: Guid(9f2d5e61dd9821b44a410f36519781d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotLeftOff.png using Guid(9f2d5e61dd9821b44a410f36519781d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1b2e8c5339275524c3ccec3832ce09') in 0.038754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001432 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/NoPreview.png
-  artifactKey: Guid(750b1bd7ba8bd28489650de6d0a95cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/NoPreview.png using Guid(750b1bd7ba8bd28489650de6d0a95cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43a9d35b193ca84f20b4ecd743e4f9f') in 0.032135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/TakeScreenshotOFF.png
-  artifactKey: Guid(7587de2e3bec8bf4d973109524ccc6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/TakeScreenshotOFF.png using Guid(7587de2e3bec8bf4d973109524ccc6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbc656cc1e255633beefc99aa440290') in 0.030515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001407 seconds.
-  path: Assets/topics/01 color/textures/tex-3.png
-  artifactKey: Guid(ea7f02af8cdec4819973b7bbd88ffdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/01 color/textures/tex-3.png using Guid(ea7f02af8cdec4819973b7bbd88ffdc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d678436e685f8962b35620daef025a') in 0.084848 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/Material.png
-  artifactKey: Guid(157b94751c138d84bbe1768c672b5168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/Material.png using Guid(157b94751c138d84bbe1768c672b5168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d788c39b338b59be07049be07463b29') in 0.040647 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/New.png
-  artifactKey: Guid(1bd93c39ca74ac041b79ae289e9b9f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/New.png using Guid(1bd93c39ca74ac041b79ae289e9b9f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2a14ca6abf26aae7482b71d5c92ec6') in 0.038673 seconds 
+  path: Assets/topics/09 image based lighting/scene/image based lighting.unity
+  artifactKey: Guid(e3f676a869183435c9558c3a8b1808f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/scene/image based lighting.unity using Guid(e3f676a869183435c9558c3a8b1808f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39aeb76bdacbdbdda6f3caa5266483d5') in 0.027952 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000320 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderModeIconOFF.png
-  artifactKey: Guid(df81b9531d8ef704f96072ce6910db68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderModeIconOFF.png using Guid(df81b9531d8ef704f96072ce6910db68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98acb237cae9e48b6c60045ace08245c') in 0.031910 seconds 
+  path: Assets/topics/09 image based lighting/scene
+  artifactKey: Guid(aa416b882f81f41e1ab260b665209cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/scene using Guid(aa416b882f81f41e1ab260b665209cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfff9cc0404d19654c3552526451f9a') in 0.015360 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001319 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotLeftOffHover.png
-  artifactKey: Guid(6f3901bfd2342774ba74e117e43d6db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotLeftOffHover.png using Guid(6f3901bfd2342774ba74e117e43d6db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f0f32aad16858c1c274ae0bd1c5ea6') in 0.038990 seconds 
+  Time since last request: 3.520795 seconds.
+  path: Assets/topics/09 image based lighting/models/sphere.fbx
+  artifactKey: Guid(a6d2a60ab9ba64381b3c3609d24000a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/models/sphere.fbx using Guid(a6d2a60ab9ba64381b3c3609d24000a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47db38608d37b688428de4499e963aa2') in 0.284853 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001147 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/LineTex 4.png
-  artifactKey: Guid(e0f922c44762291498cc62e0917609be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/LineTex 4.png using Guid(e0f922c44762291498cc62e0917609be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357f422508ecbc987c092d63c65d3214') in 0.020200 seconds 
+  Time since last request: 0.831177 seconds.
+  path: Assets/topics/09 image based lighting/materials/cubemap skybox.mat
+  artifactKey: Guid(12982bece26924378b6f293ddfef07e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/materials/cubemap skybox.mat using Guid(12982bece26924378b6f293ddfef07e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6b784eca5509434af535d84287948f') in 0.031339 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/OpenSourceCodeON.PNG
-  artifactKey: Guid(8b114792ff84f6546880c031eda42bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/OpenSourceCodeON.PNG using Guid(8b114792ff84f6546880c031eda42bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eed59b91915f7a569d125d79e48a62d') in 0.025181 seconds 
+  Time since last request: 0.001039 seconds.
+  path: Assets/topics/09 image based lighting/materials/IBL with fresnel.mat
+  artifactKey: Guid(9e77ad94ee7a4409f8f8f8debbe9ec95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/materials/IBL with fresnel.mat using Guid(9e77ad94ee7a4409f8f8f8debbe9ec95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc429cfb2b1e5e93fa9b7e49b939cfc1') in 0.172286 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/NodeSelected.png
-  artifactKey: Guid(24fb767323009c143a4e744a2025a27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/NodeSelected.png using Guid(24fb767323009c143a4e744a2025a27e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a59a5df2c88dfa77d350a311d5013f') in 0.030582 seconds 
+  Time since last request: 0.000504 seconds.
+  path: Assets/topics/09 image based lighting/materials/gradient skybox.mat
+  artifactKey: Guid(dd50e8053cb564a21a4a1e477088e8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/materials/gradient skybox.mat using Guid(dd50e8053cb564a21a4a1e477088e8c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3baaf17b08aa4ce83593ff29ef015377') in 0.026389 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/ObjectPickerBackgroundOutline.png
-  artifactKey: Guid(c1912a55d2f211d468ddeb7b1386dd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/ObjectPickerBackgroundOutline.png using Guid(c1912a55d2f211d468ddeb7b1386dd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedded2bc610c2b45bc88dd940834541') in 0.027292 seconds 
+  Time since last request: 0.000937 seconds.
+  path: Assets/topics/09 image based lighting/materials/reflection.mat
+  artifactKey: Guid(d866d3dbd286f46508a5dd0fdff5a9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/materials/reflection.mat using Guid(d866d3dbd286f46508a5dd0fdff5a9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edbca3e0d8df79cfccd6417475518bd') in 0.041800 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Library.png
-  artifactKey: Guid(9a81d7df8e62c044a9d1cada0c8a2131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Library.png using Guid(9a81d7df8e62c044a9d1cada0c8a2131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e27f4ccf0913e43bca120f3b797c9e') in 0.039030 seconds 
+  Time since last request: 0.000302 seconds.
+  path: Assets/topics/09 image based lighting/materials/specular IBL.mat
+  artifactKey: Guid(d3013da9db1e24c25abe02d4f5997981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/materials/specular IBL.mat using Guid(d3013da9db1e24c25abe02d4f5997981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe9c7b018b89a4f3e50a9620824374f') in 0.149689 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000527 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Nodes/LinkIcon.png
-  artifactKey: Guid(7cabe27e9427ef346a6b6557106353fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Nodes/LinkIcon.png using Guid(7cabe27e9427ef346a6b6557106353fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdd4f49ee82a2dffc97b60868ae57c89') in 0.033015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MaximizeWindow.png
-  artifactKey: Guid(7a1fd3f5fef75b64385591e1890d1842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MaximizeWindow.png using Guid(7a1fd3f5fef75b64385591e1890d1842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541fa9d76f8a757ea0db746c3c407868') in 0.025375 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/topics/01 color/textures/tex-2.png
-  artifactKey: Guid(9beff1ef4f9d0463da9e8cee5c7e02a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/01 color/textures/tex-2.png using Guid(9beff1ef4f9d0463da9e8cee5c7e02a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923d78268cb39ad03ca60baf32d9bb74') in 0.054186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Previews/IndirectSpecularPreview.exr
-  artifactKey: Guid(ef7513b54a0670140b9b967af7620563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Previews/IndirectSpecularPreview.exr using Guid(ef7513b54a0670140b9b967af7620563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e204b63d9490fac2963214058c905205') in 0.070901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001139 seconds.
-  path: Assets/topics/01 color/textures/leaf01.png
-  artifactKey: Guid(3aadafb1d108d3e4f99f297c1278a42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/01 color/textures/leaf01.png using Guid(3aadafb1d108d3e4f99f297c1278a42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e723b77879a0dac6dcfd70df30a8ba7') in 0.039181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001090 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/LineTex 3.png
-  artifactKey: Guid(c3512c25766a40245ac94c6b1722d76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/LineTex 3.png using Guid(c3512c25766a40245ac94c6b1722d76e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab551ac2c149f30166fd212d00c5599c') in 0.022442 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001328 seconds.
-  path: Assets/topics/07 lighting/texture/tumblr_42b55161c1972d6929d898099869c481_8a3db19b_500.png
-  artifactKey: Guid(4fa1de51f6391ff4f8ee0f7f38f3d6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/07 lighting/texture/tumblr_42b55161c1972d6929d898099869c481_8a3db19b_500.png using Guid(4fa1de51f6391ff4f8ee0f7f38f3d6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c5f77e20ca002ef520204f836f3457') in 0.024862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000642 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotMidOffHover.png
-  artifactKey: Guid(c86cb249299fb7249b5ee7fb27ef1951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotMidOffHover.png using Guid(c86cb249299fb7249b5ee7fb27ef1951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e47ce0a97168ba2f0d37ad2371d5c83') in 0.034293 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/MaterialModeIconOFF.png
-  artifactKey: Guid(7040748e1c49b9648aeeefef41c8a3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/MaterialModeIconOFF.png using Guid(7040748e1c49b9648aeeefef41c8a3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a29f95dd373f3253c108fb312f1c49') in 0.043638 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/SelectionBox.png
-  artifactKey: Guid(a702c1245d15ddb48b8fba73bf951a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/SelectionBox.png using Guid(a702c1245d15ddb48b8fba73bf951a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512b533d6bdc83505de9cd7f5ecf213d') in 0.027781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/UpdateOutdated.png
-  artifactKey: Guid(cce638be049286c41bcbd0a26c356b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/UpdateOutdated.png using Guid(cce638be049286c41bcbd0a26c356b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadba99a3109dd5fefcabe4be1bd2c25') in 0.028660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/WhitePortOutline.png
-  artifactKey: Guid(56277f370fb77a448a152bcd2e3a9077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/WhitePortOutline.png using Guid(56277f370fb77a448a152bcd2e3a9077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c12539a65f63a004437799bfbb1e2e7') in 0.026863 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/NodeSelectedSquare.png
-  artifactKey: Guid(080a030f87555fe419ecc1fb9f509118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/NodeSelectedSquare.png using Guid(080a030f87555fe419ecc1fb9f509118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9dce5405bad4375558e6376fa1fef7b') in 0.037323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001341 seconds.
-  path: Assets/topics/01 color/textures/mask-3.png
-  artifactKey: Guid(9bc38829e8b1e4e7ea949f54efe6c04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/01 color/textures/mask-3.png using Guid(9bc38829e8b1e4e7ea949f54efe6c04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b776ee627516d87c883e47130db374') in 0.038854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001045 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Options.png
-  artifactKey: Guid(36aa64354f0ba4844af761a937eea4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Options.png using Guid(36aa64354f0ba4844af761a937eea4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c394aa256019815273da15e4afede54') in 0.033582 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/SaveOFF.png
-  artifactKey: Guid(4e4a13447ac514c4ca21e7232bac5486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/SaveOFF.png using Guid(4e4a13447ac514c4ca21e7232bac5486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a6a4573cb2d9e7fcc9354bb1096119') in 0.032936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000624 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/Shader.png
-  artifactKey: Guid(555b6a287b4121b479d412e6ea92bb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/Shader.png using Guid(555b6a287b4121b479d412e6ea92bb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3508b60c49b0d6d5427a3c2dbab69fe') in 0.024346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000727 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/UpdateOFF.png
-  artifactKey: Guid(99d70ac09b4db9742b404c3f92d8564b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/UpdateOFF.png using Guid(99d70ac09b4db9742b404c3f92d8564b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7227766cd0562348d853ea80c552b54c') in 0.021393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000884 seconds.
-  path: Assets/topics/01 color/textures/ocean02.png
-  artifactKey: Guid(f1513887ec3f3e34e8a701c772369743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/01 color/textures/ocean02.png using Guid(f1513887ec3f3e34e8a701c772369743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869975684a54ea474aa5f4a29db40ec0') in 0.038929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001217 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotMidOff.png
-  artifactKey: Guid(eaf512a569994074b9b268ff098b0f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotMidOff.png using Guid(eaf512a569994074b9b268ff098b0f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b8a697986001967d6887a129ff3248') in 0.027766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/topics/01 color/textures/mask-5.png
-  artifactKey: Guid(4088d62f2f4414210ba067ae10ede890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/01 color/textures/mask-5.png using Guid(4088d62f2f4414210ba067ae10ede890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383eaf2aaad98422af27eda9af32f5ee') in 0.047434 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Help.png
-  artifactKey: Guid(066674048bbb1e64e8cdcc6c3b4abbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Help.png using Guid(066674048bbb1e64e8cdcc6c3b4abbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7346a94fa0c4a3341b16cbfe8900d4b') in 0.040773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderFunction.png
-  artifactKey: Guid(94cd628d3d8e07d40a85d82b3fdad15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderFunction.png using Guid(94cd628d3d8e07d40a85d82b3fdad15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c631bb2b501ff9039f7f793c80b2b73') in 0.032944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotRightOnHover.png
-  artifactKey: Guid(d3098ebd60a35494e9977bd96b923298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotRightOnHover.png using Guid(d3098ebd60a35494e9977bd96b923298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a201ac7c121a146dd0a861e38346731') in 0.031610 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/SliderHoriz.png
-  artifactKey: Guid(4cabb2d6785b8aa4db0c0a34e1e00f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/SliderHoriz.png using Guid(4cabb2d6785b8aa4db0c0a34e1e00f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2f49bf98f7eb3a576fa6c8ec4ca483') in 0.023069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Nodes/MasterNodeIconOFF.png
-  artifactKey: Guid(712aee08d999c16438e2d694f42428e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Nodes/MasterNodeIconOFF.png using Guid(712aee08d999c16438e2d694f42428e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca44851db4cdb09bd032e81945dfbb9e') in 0.033376 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001290 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Nodes/MasterNodeIconON.png
-  artifactKey: Guid(26c64fcee91024a49980ea2ee9d1a2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Nodes/MasterNodeIconON.png using Guid(26c64fcee91024a49980ea2ee9d1a2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f640df63a673962595043f19bfe5142') in 0.019571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000745 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/LiveON.png
-  artifactKey: Guid(6a0ae1d7892333142aeb09585572202c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/LiveON.png using Guid(6a0ae1d7892333142aeb09585572202c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9305cad9b120164ba550d024cceee80b') in 0.022609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001025 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Help2.png
-  artifactKey: Guid(77af20044e9766840a6be568806dc22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Help2.png using Guid(77af20044e9766840a6be568806dc22e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2922eb1f49e91a5eaf88a9021a61e68') in 0.025180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000579 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/PropertyPicker.png
-  artifactKey: Guid(94816692c85001f4dab01ec3666943c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/PropertyPicker.png using Guid(94816692c85001f4dab01ec3666943c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b719bf037452839b493fdddcd0901c') in 0.030456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotRightOn.png
-  artifactKey: Guid(3821e905373e9fb4aac56ad254ba5769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotRightOn.png using Guid(3821e905373e9fb4aac56ad254ba5769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5da4df43373da9b8b91d2e1cd5448dc') in 0.022600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderFunctionModeIconOFF.png
-  artifactKey: Guid(ff637d399b504ac4999b770f24ef4d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderFunctionModeIconOFF.png using Guid(ff637d399b504ac4999b770f24ef4d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402bff3bb46d1cbb33079db017e73c22') in 0.041245 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000461 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/LiveOFF.png
-  artifactKey: Guid(bb16faf366bcc6c4fbf0d7666b105354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/LiveOFF.png using Guid(bb16faf366bcc6c4fbf0d7666b105354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff148b391464993a7268207d7440a0f') in 0.023286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/white.png
-  artifactKey: Guid(37e6f91f3efb0954cbdce254638862ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/white.png using Guid(37e6f91f3efb0954cbdce254638862ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab5e60eaeda525220c59613e0c654d5') in 0.036977 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000614 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/PreviewOff.png
-  artifactKey: Guid(1f3a46793c375864ab816c0d78061e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/PreviewOff.png using Guid(1f3a46793c375864ab816c0d78061e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581a46329c5a124827b14a928e08a14e') in 0.025937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000474 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/red.png
-  artifactKey: Guid(af5ab63a69b074347be0e4c17fb9dc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/red.png using Guid(af5ab63a69b074347be0e4c17fb9dc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07d4968960e5cb45277497f6b9706e7') in 0.035690 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/topics/07 lighting/texture/TexturesCom_Terracotta_Plain_1K_normal.tif
-  artifactKey: Guid(d0b88ab803e3f3d4e94f1afd2cb65fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/07 lighting/texture/TexturesCom_Terracotta_Plain_1K_normal.tif using Guid(d0b88ab803e3f3d4e94f1afd2cb65fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a4a6842c79450e2eee510b085f80cd') in 0.036186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000512 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ItemCleanupOFF.png
-  artifactKey: Guid(8b6b4ff52c49a2a43a602895465e107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ItemCleanupOFF.png using Guid(8b6b4ff52c49a2a43a602895465e107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e083f7ebf30365f1162a5bbc7577c753') in 0.034592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000426 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ShaderSelectOFF.png
-  artifactKey: Guid(ce7d95fa4e635f943a73ce1b19312cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/ShaderSelectOFF.png using Guid(ce7d95fa4e635f943a73ce1b19312cc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30086e6d6088da9d2e00d748dce847a6') in 0.033806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001109 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/PreviewOn.png
-  artifactKey: Guid(dae54b5aa457b474e8a1599de1073d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/PreviewOn.png using Guid(dae54b5aa457b474e8a1599de1073d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9214b5c571b73b669c9443688fa773bd') in 0.024994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/MainCanvasTitleBg.png
-  artifactKey: Guid(bdb42c87b8801e94e886c5c0d60b3014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/MainCanvasTitleBg.png using Guid(bdb42c87b8801e94e886c5c0d60b3014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21daf51cd1bbba1622dd078f3e9e663e') in 0.030560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/LineTex 2.png
-  artifactKey: Guid(03a7d169469c1af41bb03241a7b7e23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/LineTex 2.png using Guid(03a7d169469c1af41bb03241a7b7e23d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5a018942a3c4270d20e60f6d8b98aa') in 0.032147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderFunctionModeIcon.png
-  artifactKey: Guid(68897d376b60748438e0ae3474ebe558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderFunctionModeIcon.png using Guid(68897d376b60748438e0ae3474ebe558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c309b462a65361193c3a5d70047c3ed') in 0.035069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/UpdateUpToDated.png
-  artifactKey: Guid(ce30b12fbb3223746bcfef9ea82effe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/UpdateUpToDated.png using Guid(ce30b12fbb3223746bcfef9ea82effe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b2d7d7fefe57b06237997792133741') in 0.029326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/topics/01 color/textures/mask-2.png
-  artifactKey: Guid(8b187e50797a64134b39b25d18515a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/01 color/textures/mask-2.png using Guid(8b187e50797a64134b39b25d18515a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac5081a84a184b83f99da9e1bd609fd') in 0.038608 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotLeftOn.png
-  artifactKey: Guid(4c872bb553406fe44a9d0046a0ef9bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotLeftOn.png using Guid(4c872bb553406fe44a9d0046a0ef9bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b8f43aa0f8ba5bb17aac946ac429d5') in 0.036617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000715 seconds.
-  path: Assets/topics/07 lighting/texture/wallpaper 1.png
-  artifactKey: Guid(d3023c52dae9d54428f632de5509052f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/07 lighting/texture/wallpaper 1.png using Guid(d3023c52dae9d54428f632de5509052f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912599e071cdda236626eecb422a5521') in 0.035959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000782 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Open.png
-  artifactKey: Guid(d8b538796c7980843b59d62dbcdebef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Open.png using Guid(d8b538796c7980843b59d62dbcdebef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b630c1745209d56ce46cf4f4075efba') in 0.037674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotRightOffHover.png
-  artifactKey: Guid(df6fb8448a382c743bd124cc0da55113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotRightOffHover.png using Guid(df6fb8448a382c743bd124cc0da55113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c155867d87197c5609213f2cd50c04') in 0.036294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderModeIcon.PNG
-  artifactKey: Guid(f4ca92d9e50d06049b7ccec2c438754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderModeIcon.PNG using Guid(f4ca92d9e50d06049b7ccec2c438754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0899667c1ffa01f4814c90267fc0d269') in 0.032200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000674 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderModeMatIcon.png
-  artifactKey: Guid(6f410c15ce9be2741bae77a30a336748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/ShaderModeMatIcon.png using Guid(6f410c15ce9be2741bae77a30a336748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6b8262a836070447d31dfc743aff13') in 0.040932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/SliderButton.png
-  artifactKey: Guid(dd563e33152bb6443b099b4139ceecb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/SliderButton.png using Guid(dd563e33152bb6443b099b4139ceecb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4cd36bbc7e12b73eeff4111932a400') in 0.025102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000501 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/LineTex.png
-  artifactKey: Guid(02f71419854c0d845a930c9e0a0bf775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/LineTex.png using Guid(02f71419854c0d845a930c9e0a0bf775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1304851043a86b9363d8c1aae8e5b399') in 0.027377 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotLeftOnHover.png
-  artifactKey: Guid(7ef06ce40d713d34790e78278ee82dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/MiniBotLeftOnHover.png using Guid(7ef06ce40d713d34790e78278ee82dea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a26161a2f8055b5088f4919a314c23a') in 0.025647 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000547 seconds.
-  path: Assets/topics/07 lighting/texture/TexturesCom_Terracotta_Plain_1K_albedo.tif
-  artifactKey: Guid(a52d3eb4e759bcd4db143c114a3ed012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/07 lighting/texture/TexturesCom_Terracotta_Plain_1K_albedo.tif using Guid(a52d3eb4e759bcd4db143c114a3ed012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bccbf3fb5ac4952d1dfbfa23ed728b') in 0.033568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000482 seconds.
-  path: Assets/topics/01 color/textures/tex-1.png
-  artifactKey: Guid(0ef7e7b07e173451ebafd2de87b95765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/01 color/textures/tex-1.png using Guid(0ef7e7b07e173451ebafd2de87b95765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a0f1535c6c03d9fe5d6e17484f61c3') in 0.052500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/MaterialModeIcon.PNG
-  artifactKey: Guid(5725fa8ee04e1be449af059f5735cd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/MaterialModeIcon.PNG using Guid(5725fa8ee04e1be449af059f5735cd81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078f1e3ec0a0bd021dba2eda6f19e99a') in 0.036403 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000929 seconds.
-  path: Assets/topics/01 color/textures/mask02.png
-  artifactKey: Guid(1d533bb31b9028c43b055e318910c9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/01 color/textures/mask02.png using Guid(1d533bb31b9028c43b055e318910c9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0537fd95371a3379c08960e7a7801091') in 0.046518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.903166 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/grey.png
-  artifactKey: Guid(31d5a2d79390ab542a81a6699a999758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/grey.png using Guid(31d5a2d79390ab542a81a6699a999758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf102f9203095fbde769d117bad6243') in 0.027353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/Grid128.png
-  artifactKey: Guid(881c304491028ea48b5027ac6c62cf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/Grid128.png using Guid(881c304491028ea48b5027ac6c62cf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b899bc76100fd0a6ed9bf065665b08b5') in 0.025483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.476260 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/GrayNormalHeader.png
-  artifactKey: Guid(9e88b336bd16b1e4b99de75f486126c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/GrayNormalHeader.png using Guid(9e88b336bd16b1e4b99de75f486126c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221bd6742c777dd04f59c7fe4f0844af') in 0.029334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/GrayNormalHeaderSquare.png
-  artifactKey: Guid(b16188b8a3dee8146bd9cb0bde234a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/GrayNormalHeaderSquare.png using Guid(b16188b8a3dee8146bd9cb0bde234a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ace072a8dddfc600c73a68097131b48') in 0.023461 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/green.png
-  artifactKey: Guid(352167e52fa3b0c43ac690f5e2debc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/green.png using Guid(352167e52fa3b0c43ac690f5e2debc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8097602c7f0796e64fc20d212bdbd8d') in 0.037174 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.050349 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Nodes/GPUInstancingIconON.png
-  artifactKey: Guid(4b0c2926cc71c5846ae2a29652d54fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Nodes/GPUInstancingIconON.png using Guid(4b0c2926cc71c5846ae2a29652d54fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110bb43ed5cfcf546129735316ba8b7d') in 0.026237 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/GraphButton.png
-  artifactKey: Guid(2b3b7485f95e8a44dab3fa9610f56cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/GraphButton.png using Guid(2b3b7485f95e8a44dab3fa9610f56cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb32a8a123a6b1bca53e8e5a4af8783e') in 0.031917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/GraphButtonActive.png
-  artifactKey: Guid(dd3411e8d9927d3429d5872dbdbd752b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/GraphButtonActive.png using Guid(dd3411e8d9927d3429d5872dbdbd752b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e2719f6e77d64587f4ec342718a89f') in 0.039519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/GraphPopup.png
-  artifactKey: Guid(2ae607812d722ec46b48647c2a800779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/GraphPopup.png using Guid(2ae607812d722ec46b48647c2a800779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e051d8031adff0937677ec016031dd3') in 0.037142 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.016587 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/flat.png
-  artifactKey: Guid(194a51ad3c0179644abea3f196c5ebe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/flat.png using Guid(194a51ad3c0179644abea3f196c5ebe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019e694d7011cf6c265c4abe6f4f9d82') in 0.031741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000533 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/FocusNode.png
-  artifactKey: Guid(da673e6179c67d346abb220a6935e359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/FocusNode.png using Guid(da673e6179c67d346abb220a6935e359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b728ea3c764b8dc4bface3f46792806f') in 0.026720 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000470 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CustomExpAddIconNormal.png
-  artifactKey: Guid(7eb057fdbf020504fb6c9c3c78031e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CustomExpAddIconNormal.png using Guid(7eb057fdbf020504fb6c9c3c78031e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231e1a10e12cf8dd45396d81a2294a73') in 0.047442 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/CommentaryResizeIconInv.png
-  artifactKey: Guid(b52bc320a2ff91446978a893ec738134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/CommentaryResizeIconInv.png using Guid(b52bc320a2ff91446978a893ec738134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86afdaab8f0fbfd222079387dba1ef0') in 0.028848 seconds 
+  Time since last request: 0.000271 seconds.
+  path: Assets/topics/09 image based lighting/materials/fresnel.mat
+  artifactKey: Guid(d8b21b1422a764447bd3378afbf2a715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/materials/fresnel.mat using Guid(d8b21b1422a764447bd3378afbf2a715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832808c41dd8d158b23ab8f3a41d9710') in 0.043665 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000376 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CleanupON.png
-  artifactKey: Guid(615d853995cf2344d8641fd19cb09b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CleanupON.png using Guid(615d853995cf2344d8641fd19cb09b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16046cbb6f325740355dc1963914b97c') in 0.026268 seconds 
+  path: Assets/topics/09 image based lighting/materials/IBL fresnel and roughness.mat
+  artifactKey: Guid(961e03f1240fc4edfa78c2287d7f27bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/materials/IBL fresnel and roughness.mat using Guid(961e03f1240fc4edfa78c2287d7f27bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00b1c8ff6c10ead6d9364a6821f8245') in 0.128635 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000464 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CustomExpAddIconActive.png
-  artifactKey: Guid(52bbe770f45f531419e44a69be67ccba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CustomExpAddIconActive.png using Guid(52bbe770f45f531419e44a69be67ccba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb27d225cceab8ce72f18e2c60798d96') in 0.035480 seconds 
+  Time since last request: 0.000447 seconds.
+  path: Assets/topics/09 image based lighting/materials/diffuse IBL.mat
+  artifactKey: Guid(7ba8971b2640e4447b06705d6b049e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/materials/diffuse IBL.mat using Guid(7ba8971b2640e4447b06705d6b049e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37af71f21d6ac3101ebc758f14b3f477') in 0.090531 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000423 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CustomExpRemoveIconNormal.png
-  artifactKey: Guid(839cb1530f95ad14ab58762161a9cb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CustomExpRemoveIconNormal.png using Guid(839cb1530f95ad14ab58762161a9cb06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49156a3788586b073c847692a738d06') in 0.034739 seconds 
+  Time since last request: 7.152186 seconds.
+  path: Assets/topics/09 image based lighting/textures/environment
+  artifactKey: Guid(0bb670596dfd74c16bbbc27b70354b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/textures/environment using Guid(0bb670596dfd74c16bbbc27b70354b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d2f27c0c5eee69e312e6cf6cb367e1') in 0.015431 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000574 seconds.
-  path: Assets/topics/01 color/textures/bw.png
-  artifactKey: Guid(ffdb2323ea0b64735bce3938be75504e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/01 color/textures/bw.png using Guid(ffdb2323ea0b64735bce3938be75504e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f32bc3bb641a17e0bda38e62554abc') in 0.041798 seconds 
+  Time since last request: 0.660637 seconds.
+  path: Assets/topics/09 image based lighting/textures/environment/GCanyon_C_YumaPoint_8k.jpg
+  artifactKey: Guid(67fc12ac8848a42579f4c8216a65af7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/textures/environment/GCanyon_C_YumaPoint_8k.jpg using Guid(67fc12ac8848a42579f4c8216a65af7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca583976385114455d66a91845cfc5b') in 0.034576 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/BlueNormalHeader.png
-  artifactKey: Guid(bd910a1d744309b499b59062db7891ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/BlueNormalHeader.png using Guid(bd910a1d744309b499b59062db7891ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1366456c137d648ec012f18572c474') in 0.037425 seconds 
+  Time since last request: 2.703121 seconds.
+  path: Assets/topics/09 image based lighting/textures/marble/qkqq3hp_4K_Albedo.jpg
+  artifactKey: Guid(e602f0d52907543abb61acfe3294c77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/textures/marble/qkqq3hp_4K_Albedo.jpg using Guid(e602f0d52907543abb61acfe3294c77e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c7a8903daedaa6917375e7d0968091') in 0.036070 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000760 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/CircleBackground.png
-  artifactKey: Guid(c560c5d8ca4c353409caf2ec204f3a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Canvas/CircleBackground.png using Guid(c560c5d8ca4c353409caf2ec204f3a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd330bedc4c7f6bcc47bf74adb5d35d') in 0.019746 seconds 
+  Time since last request: 0.000454 seconds.
+  path: Assets/topics/09 image based lighting/textures/marble/qkqq3hp_4K_Normal.jpg
+  artifactKey: Guid(fec17e2837efd489b8f67971177a1f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/textures/marble/qkqq3hp_4K_Normal.jpg using Guid(fec17e2837efd489b8f67971177a1f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1846e51c3f58bcc1e25c6dcea6579be2') in 0.048076 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000535 seconds.
-  path: Assets/topics/01 color/textures/br.png
-  artifactKey: Guid(827397eba275d435bbcad3a8cdc6e72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/01 color/textures/br.png using Guid(827397eba275d435bbcad3a8cdc6e72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662cf4e7c59ee3fc81e6852731655915') in 0.040462 seconds 
+  Time since last request: 0.000769 seconds.
+  path: Assets/topics/09 image based lighting/textures/marble/qkqq3hp_4K_Displacement.jpg
+  artifactKey: Guid(558ab00108751416e8602b6f6da470a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/textures/marble/qkqq3hp_4K_Displacement.jpg using Guid(558ab00108751416e8602b6f6da470a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34a928ef3b5809852e21a40b4103674c') in 0.044090 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/About.png
-  artifactKey: Guid(8aba6bb20faf8824d9d81946542f1ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/About.png using Guid(8aba6bb20faf8824d9d81946542f1ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e047bd9906df77425a1415d76d3ebea1') in 0.041168 seconds 
+  Time since last request: 0.000714 seconds.
+  path: Assets/topics/09 image based lighting/textures/marble/shlabh0c_4K_Roughness.jpg
+  artifactKey: Guid(3c19b272e2fc24b1899e983ce4d4173b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/textures/marble/shlabh0c_4K_Roughness.jpg using Guid(3c19b272e2fc24b1899e983ce4d4173b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b0ad0bfe328e931678452612bc7938') in 0.046779 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CleanupOFF.png
-  artifactKey: Guid(f62c0c3a5ddcd844e905fb2632fdcb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CleanupOFF.png using Guid(f62c0c3a5ddcd844e905fb2632fdcb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96b448a765a9cd10a09c394a9478ea0') in 0.027647 seconds 
+  Time since last request: 91.666197 seconds.
+  path: Assets/topics/09 image based lighting/shaders/diffuse IBL.shader
+  artifactKey: Guid(d4158594ba3a54f7f9efabda53183367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/diffuse IBL.shader using Guid(d4158594ba3a54f7f9efabda53183367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1019907d2b8d80ed499ee5c483d82dc') in 0.011636 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000397 seconds.
-  path: Assets/topics/06 creating meshes/textures/cherry-blossoms-effect-assets/cherry-blossoms-effect.png
-  artifactKey: Guid(5782176d9e2b59d40a27e79afc7bfdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/06 creating meshes/textures/cherry-blossoms-effect-assets/cherry-blossoms-effect.png using Guid(5782176d9e2b59d40a27e79afc7bfdcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3878bdccd4761aacb4c8c7e53b14e9') in 0.041147 seconds 
+  Time since last request: 108.979408 seconds.
+  path: Assets/topics/09 image based lighting/shaders/gradient skybox.shader
+  artifactKey: Guid(98ee125333a0c4337aafa5e368fc3997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/gradient skybox.shader using Guid(98ee125333a0c4337aafa5e368fc3997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe434f67b3b33411a6bcdaa36d097b1') in 0.004093 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Nodes/Bezier1X2AA.png
-  artifactKey: Guid(06e687f68dd96f0448c6d8217bbcf608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Nodes/Bezier1X2AA.png using Guid(06e687f68dd96f0448c6d8217bbcf608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ed83f608903a9cb668467439ab5aa9') in 0.027001 seconds 
+  Time since last request: 206.939359 seconds.
+  path: Assets/topics/09 image based lighting/shaders/gradient skybox.shader
+  artifactKey: Guid(98ee125333a0c4337aafa5e368fc3997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/gradient skybox.shader using Guid(98ee125333a0c4337aafa5e368fc3997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac132fded60833219c321d9abaf4468') in 0.006457 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000762 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Checkmark.png
-  artifactKey: Guid(e9c4642eaa083a54ab91406d8449e6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/Checkmark.png using Guid(e9c4642eaa083a54ab91406d8449e6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c599ab524cfba15b8eade4b5d89a40f1') in 0.024852 seconds 
+  Time since last request: 62.204832 seconds.
+  path: Assets/topics/09 image based lighting/shaders/gradient skybox.shader
+  artifactKey: Guid(98ee125333a0c4337aafa5e368fc3997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/gradient skybox.shader using Guid(98ee125333a0c4337aafa5e368fc3997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4231189027e5c59cbb4a4d3c0e8c0201') in 0.004099 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/CommentaryResizeIcon.png
-  artifactKey: Guid(5321bd2b79632764286f28503db80815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/CommentaryResizeIcon.png using Guid(5321bd2b79632764286f28503db80815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6978cc4bc1a039d50084b530062d8923') in 0.028389 seconds 
+  Time since last request: 634.988406 seconds.
+  path: Assets/topics/09 image based lighting/shaders/cubemap skybox.shader
+  artifactKey: Guid(001fa3815e7f8408f85893f6f4f218e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/cubemap skybox.shader using Guid(001fa3815e7f8408f85893f6f4f218e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f53e3468605bb4b264974217733dc65') in 0.004069 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000559 seconds.
-  path: Assets/topics/06 creating meshes/models/Cheems.blend/Cheems.fbm/cheems.png
-  artifactKey: Guid(4e8a9127fc889fe46819d610fe339de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/06 creating meshes/models/Cheems.blend/Cheems.fbm/cheems.png using Guid(4e8a9127fc889fe46819d610fe339de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d758611e96a21ee20dbd5033557166') in 0.046107 seconds 
+  Time since last request: 261.988176 seconds.
+  path: Assets/topics/09 image based lighting/shaders/cubemap skybox.shader
+  artifactKey: Guid(001fa3815e7f8408f85893f6f4f218e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/cubemap skybox.shader using Guid(001fa3815e7f8408f85893f6f4f218e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39bb367212f9bad6e4afd7c89d8e6e19') in 0.007775 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CircularToggle_OFF_Dark.png
-  artifactKey: Guid(1aaca50d084b0bb43854f075ce2f302b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CircularToggle_OFF_Dark.png using Guid(1aaca50d084b0bb43854f075ce2f302b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6de336d22d89042780915b780fb8f9e') in 0.036734 seconds 
+  Time since last request: 80.886604 seconds.
+  path: Assets/topics/09 image based lighting/shaders/cubemap skybox.shader
+  artifactKey: Guid(001fa3815e7f8408f85893f6f4f218e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/cubemap skybox.shader using Guid(001fa3815e7f8408f85893f6f4f218e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38a119286b25eb145cb5b5fd502830b') in 0.006129 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000472 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/BlueNormalBase.png
-  artifactKey: Guid(60c283ffa9a758646ab70a2fe7ff5f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/BlueNormalBase.png using Guid(60c283ffa9a758646ab70a2fe7ff5f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e187fa73f53afb9ec81441e944cac613') in 0.039296 seconds 
+  Time since last request: 25.481989 seconds.
+  path: Assets/topics/09 image based lighting/shaders/cubemap skybox.shader
+  artifactKey: Guid(001fa3815e7f8408f85893f6f4f218e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/cubemap skybox.shader using Guid(001fa3815e7f8408f85893f6f4f218e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23a20998762705b03216a2f2ff7b97d') in 0.004373 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/topics/01 color/textures/base.png
-  artifactKey: Guid(91020a11f22c74ab8aa745a97076b311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/01 color/textures/base.png using Guid(91020a11f22c74ab8aa745a97076b311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367807a213f520c1562930da7b117a9a') in 0.045926 seconds 
+  Time since last request: 7.898685 seconds.
+  path: Assets/topics/09 image based lighting/shaders/cubemap skybox.shader
+  artifactKey: Guid(001fa3815e7f8408f85893f6f4f218e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/cubemap skybox.shader using Guid(001fa3815e7f8408f85893f6f4f218e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b85d41214b30dd9b1ae6b4f1d5e34e2') in 0.005268 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CustomExpRemoveIconActive.png
-  artifactKey: Guid(1ba096552f9cbbb418ee2286856bb352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CustomExpRemoveIconActive.png using Guid(1ba096552f9cbbb418ee2286856bb352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f5055066678588e44463e8cade1225') in 0.042970 seconds 
+  Time since last request: 184.906664 seconds.
+  path: Assets/topics/09 image based lighting/textures/environment/WeChat Image_20211029145129.jpg
+  artifactKey: Guid(7b7e34d163f3d6d479dc2e5407103850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/textures/environment/WeChat Image_20211029145129.jpg using Guid(7b7e34d163f3d6d479dc2e5407103850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e499b891b103069ae08302c2bc0001') in 0.036638 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000551 seconds.
-  path: Assets/topics/06 creating meshes/models/Cheems.blend/textures/cheems.png
-  artifactKey: Guid(f46c640befc3dfb46a1c872dc4cfa364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/06 creating meshes/models/Cheems.blend/textures/cheems.png using Guid(f46c640befc3dfb46a1c872dc4cfa364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bbdc5862e9b9f90a11aa344d9032260') in 0.017757 seconds 
+  Time since last request: 50.820998 seconds.
+  path: Assets/topics/09 image based lighting/textures/environment/WeChat Image_20211029145129.jpg
+  artifactKey: Guid(7b7e34d163f3d6d479dc2e5407103850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/textures/environment/WeChat Image_20211029145129.jpg using Guid(7b7e34d163f3d6d479dc2e5407103850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc39037b0b0f828d093efdedf0e5da86') in 0.030012 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001125 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/AddToList.png
-  artifactKey: Guid(cccc116a6334dc1428687697c5a11d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/AddToList.png using Guid(cccc116a6334dc1428687697c5a11d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6618379972bd516b3328c0347ec85c') in 0.030635 seconds 
+  Time since last request: 18.255550 seconds.
+  path: Assets/topics/09 image based lighting/textures/environment/WeChat Image_20211029145129.jpg
+  artifactKey: Guid(7b7e34d163f3d6d479dc2e5407103850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/textures/environment/WeChat Image_20211029145129.jpg using Guid(7b7e34d163f3d6d479dc2e5407103850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f1c020d3be168c4c3d51fd8e7abe04') in 0.067063 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/topics/07 lighting/texture/73466.png
-  artifactKey: Guid(2166b8bd54884b24591fa494889712f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/07 lighting/texture/73466.png using Guid(2166b8bd54884b24591fa494889712f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a258057764f9c80813849741de4af650') in 0.020945 seconds 
+  Time since last request: 124.227614 seconds.
+  path: Assets/topics/09 image based lighting/shaders/gradient skybox.shader
+  artifactKey: Guid(98ee125333a0c4337aafa5e368fc3997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/gradient skybox.shader using Guid(98ee125333a0c4337aafa5e368fc3997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5740e5fe61f6a520bfa6868035de8828') in 0.015356 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000594 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/CommentNodeBase.png
-  artifactKey: Guid(b2be9c55e7e7ba447967677c82b2cb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/CommentNodeBase.png using Guid(b2be9c55e7e7ba447967677c82b2cb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daba794f5f0320d7bfe7af4407e25ab6') in 0.026371 seconds 
+  Time since last request: 8.044929 seconds.
+  path: Assets/topics/09 image based lighting/textures/environment/GCanyon_C_YumaPoint_2k.png
+  artifactKey: Guid(e5dcf5136c035b24c822a62921c4bbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/textures/environment/GCanyon_C_YumaPoint_2k.png using Guid(e5dcf5136c035b24c822a62921c4bbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e4d8d65c4e758176d336172172432e0') in 0.025300 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000487 seconds.
-  path: Assets/topics/01 color/textures/blend.png
-  artifactKey: Guid(eb0e5515f5e0545499cb0c041553e555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/01 color/textures/blend.png using Guid(eb0e5515f5e0545499cb0c041553e555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849b5050789caac244c2e03bfb7ee853') in 0.033499 seconds 
+  Time since last request: 10.237268 seconds.
+  path: Assets/topics/09 image based lighting/textures/environment/GCanyon_C_YumaPoint_2k.png
+  artifactKey: Guid(e5dcf5136c035b24c822a62921c4bbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/textures/environment/GCanyon_C_YumaPoint_2k.png using Guid(e5dcf5136c035b24c822a62921c4bbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd932233e1c629b07ac80bf44d8008e0') in 0.034892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 341.322303 seconds.
+  path: Assets/topics/09 image based lighting/shaders/diffuse IBL.shader
+  artifactKey: Guid(d4158594ba3a54f7f9efabda53183367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/diffuse IBL.shader using Guid(d4158594ba3a54f7f9efabda53183367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3adf94c1e68a1d69617b0c5c0d3b1720') in 0.016782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 670.633955 seconds.
+  path: Assets/topics/09 image based lighting/shaders/diffuse IBL.shader
+  artifactKey: Guid(d4158594ba3a54f7f9efabda53183367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/diffuse IBL.shader using Guid(d4158594ba3a54f7f9efabda53183367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae79f338b57d784165ebdf9b1302c5c1') in 0.004678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.303620 seconds.
+  path: Assets/topics/09 image based lighting/shaders/reflection.shader
+  artifactKey: Guid(e8ad345e1e43d48f099d6c79314a1dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/reflection.shader using Guid(e8ad345e1e43d48f099d6c79314a1dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d09cf1187a189004c7877d6deedbbb') in 0.008020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 182.214965 seconds.
+  path: Assets/topics/09 image based lighting/shaders/reflection.shader
+  artifactKey: Guid(e8ad345e1e43d48f099d6c79314a1dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/reflection.shader using Guid(e8ad345e1e43d48f099d6c79314a1dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b00ad69dc6df2dce9d45390886a625') in 0.005300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 144.148217 seconds.
+  path: Assets/topics/09 image based lighting/shaders/reflection.shader
+  artifactKey: Guid(e8ad345e1e43d48f099d6c79314a1dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/reflection.shader using Guid(e8ad345e1e43d48f099d6c79314a1dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b727186bf294bd9c52252d3ed00a9762') in 0.006452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.932592 seconds.
+  path: Assets/topics/09 image based lighting/shaders/IBL with fresnel.shader
+  artifactKey: Guid(1fd9dddbaa37d41aa91e3caee4cc86ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/IBL with fresnel.shader using Guid(1fd9dddbaa37d41aa91e3caee4cc86ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f567e5456ceb432b8ef6b125156ece') in 0.015191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.352204 seconds.
+  path: Assets/topics/09 image based lighting/shaders/IBL fresnel and roughness.shader
+  artifactKey: Guid(b286fc326424848feb063d76cb623941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/IBL fresnel and roughness.shader using Guid(b286fc326424848feb063d76cb623941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96112fa0c8d0e9a3124e5ec163b577a5') in 0.013929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.839555 seconds.
+  path: Assets/topics/09 image based lighting/shaders/fresnel.shader
+  artifactKey: Guid(cef5d2d3a915247fdad2368ce6c30a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/fresnel.shader using Guid(cef5d2d3a915247fdad2368ce6c30a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62cee5a45a0b4d4165e15c4a7a2bd252') in 0.009072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 995.251577 seconds.
+  path: Assets/topics/09 image based lighting/shaders/reflection.shader
+  artifactKey: Guid(e8ad345e1e43d48f099d6c79314a1dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/reflection.shader using Guid(e8ad345e1e43d48f099d6c79314a1dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082834d081a8d3727d6eb71d66409529') in 0.004322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.373369 seconds.
+  path: Assets/topics/09 image based lighting/shaders/specular IBL.shader
+  artifactKey: Guid(27899fcd7a9c04feabc8cf3a69b11379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/specular IBL.shader using Guid(27899fcd7a9c04feabc8cf3a69b11379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf819e67f8024ff73d8a5579f4b7dcb') in 0.013132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 220.325939 seconds.
+  path: Assets/topics/09 image based lighting/shaders/specular IBL.shader
+  artifactKey: Guid(27899fcd7a9c04feabc8cf3a69b11379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/specular IBL.shader using Guid(27899fcd7a9c04feabc8cf3a69b11379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36546fa3ad364b88e0f4a57ab0305db1') in 0.006657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.850213 seconds.
+  path: Assets/topics/09 image based lighting/shaders/specular IBL.shader
+  artifactKey: Guid(27899fcd7a9c04feabc8cf3a69b11379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/specular IBL.shader using Guid(27899fcd7a9c04feabc8cf3a69b11379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2f69f7a4cda204a8acc2101db32fb2') in 0.003634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 172.154988 seconds.
+  path: Assets/topics/09 image based lighting/shaders/specular IBL.shader
+  artifactKey: Guid(27899fcd7a9c04feabc8cf3a69b11379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/specular IBL.shader using Guid(27899fcd7a9c04feabc8cf3a69b11379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4de27d065477cea8321393ba2f28249') in 0.009995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.428759 seconds.
+  path: Assets/topics/09 image based lighting/shaders/reflection.shader
+  artifactKey: Guid(e8ad345e1e43d48f099d6c79314a1dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/reflection.shader using Guid(e8ad345e1e43d48f099d6c79314a1dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d94922035233f8dd109f8de68f33d7c') in 0.004803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 390.524067 seconds.
+  path: Assets/topics/09 image based lighting/materials/cubemap skybox.mat
+  artifactKey: Guid(12982bece26924378b6f293ddfef07e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/materials/cubemap skybox.mat using Guid(12982bece26924378b6f293ddfef07e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e053691f9bf6132268266e534bd99461') in 0.039689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000577 seconds.
+  path: Assets/topics/09 image based lighting/materials/reflection.mat
+  artifactKey: Guid(d866d3dbd286f46508a5dd0fdff5a9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/materials/reflection.mat using Guid(d866d3dbd286f46508a5dd0fdff5a9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05965a8d721001ec63a09bbf43a9e0b4') in 0.104461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/topics/09 image based lighting/materials/specular IBL.mat
+  artifactKey: Guid(d3013da9db1e24c25abe02d4f5997981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/materials/specular IBL.mat using Guid(d3013da9db1e24c25abe02d4f5997981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76806c1b2bc25f0fff67599a56725e3') in 0.138720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/topics/09 image based lighting/materials/diffuse IBL.mat
+  artifactKey: Guid(7ba8971b2640e4447b06705d6b049e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/materials/diffuse IBL.mat using Guid(7ba8971b2640e4447b06705d6b049e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5702772b9984869320181b66692a983') in 0.091239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.865988 seconds.
+  path: Assets/topics/08 normal mapping/textures/CausticsShallow.jpg
+  artifactKey: Guid(581fcfd543a4445829bb923bace720da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/08 normal mapping/textures/CausticsShallow.jpg using Guid(581fcfd543a4445829bb923bace720da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9897ca56cfb0575bdc0083649707884c') in 0.024351 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000336 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CleanupOFFNew.png
-  artifactKey: Guid(df0f2e2030492c14d9237317aef419cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CleanupOFFNew.png using Guid(df0f2e2030492c14d9237317aef419cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9454f89edfb46e52cbcfac7080c1b409') in 0.034267 seconds 
+  path: Assets/topics/08 normal mapping/textures/GentleWaves.bmp
+  artifactKey: Guid(ed512d00c2b0c0748bcb5cf3fce1a4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/08 normal mapping/textures/GentleWaves.bmp using Guid(ed512d00c2b0c0748bcb5cf3fce1a4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '429123db9159aa1aad0be4023cb0fdd8') in 0.043361 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000376 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/ButtonBackground.png
-  artifactKey: Guid(b57dd36838fb19c449fd4559efe3f800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/ButtonBackground.png using Guid(b57dd36838fb19c449fd4559efe3f800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16f47cc0807efde0314d6b943bf9acc') in 0.033855 seconds 
+  Time since last request: 0.000688 seconds.
+  path: Assets/topics/08 normal mapping/textures/Sand Texture.bmp
+  artifactKey: Guid(aca9b2c3c009e0c499f66d42012dfb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/08 normal mapping/textures/Sand Texture.bmp using Guid(aca9b2c3c009e0c499f66d42012dfb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1b5e421702692ac95a1e69b6941d67') in 0.057122 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/black.png
-  artifactKey: Guid(7a170cdb7cc88024cb628cfcdbb6705c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/black.png using Guid(7a170cdb7cc88024cb628cfcdbb6705c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f97e8030a46084195b5346c381ca7e56') in 0.036838 seconds 
+  Time since last request: 2.621429 seconds.
+  path: Assets/topics/08 normal mapping/scene/Ocean.unity
+  artifactKey: Guid(010df672e74174542a49a18c9a333be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/08 normal mapping/scene/Ocean.unity using Guid(010df672e74174542a49a18c9a333be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab2e4c22bad37bb8f8521fd0c323063') in 0.016310 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/BlueNormalBaseLeft.png
-  artifactKey: Guid(330fd0c8f074a3c4f8042114a61a73d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/BlueNormalBaseLeft.png using Guid(330fd0c8f074a3c4f8042114a61a73d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5add11944cc042e192d4b543c4260dc9') in 0.027810 seconds 
+  Time since last request: 19.347414 seconds.
+  path: Assets/topics/08 normal mapping/materials/displacement.mat
+  artifactKey: Guid(d63664c7d2f434742ae42175ff5d2c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/08 normal mapping/materials/displacement.mat using Guid(d63664c7d2f434742ae42175ff5d2c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc772a38822a69d32afe9d8400127408') in 0.146090 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/topics/07 lighting/texture/47ae0599f6574d268506ff0e00131178.png
-  artifactKey: Guid(41697d904d1fefd4a8a9dc4c1dae32e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/07 lighting/texture/47ae0599f6574d268506ff0e00131178.png using Guid(41697d904d1fefd4a8a9dc4c1dae32e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76f56b63ade8ede5ceaf3ad4ee710d0') in 0.032538 seconds 
+  Time since last request: 0.000414 seconds.
+  path: Assets/topics/08 normal mapping/materials/refraction.mat
+  artifactKey: Guid(54b939e58d67d4fcf8d15223cc60145a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/08 normal mapping/materials/refraction.mat using Guid(54b939e58d67d4fcf8d15223cc60145a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6080f7f62d4a0c4d8713f58a8c03808') in 0.168405 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/FlatBackground.png
-  artifactKey: Guid(44efd0011d6a9bc4fb0b3a82753dac4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/FlatBackground.png using Guid(44efd0011d6a9bc4fb0b3a82753dac4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1411610c35f0e71e34ebdb21b6dc84ad') in 0.040405 seconds 
+  Time since last request: 0.000258 seconds.
+  path: Assets/topics/08 normal mapping/materials/water.mat
+  artifactKey: Guid(13ba06704b7534252ac67f84136dc19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/08 normal mapping/materials/water.mat using Guid(13ba06704b7534252ac67f84136dc19a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c015c07aa2d69158ff1858d2f349e7') in 0.056029 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001057 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CleanupONNew.png
-  artifactKey: Guid(e86ba70d2363b9443beac28a6a370b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CleanupONNew.png using Guid(e86ba70d2363b9443beac28a6a370b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92d73910ac10553527fef9ed6a45fa8') in 0.044830 seconds 
+  Time since last request: 0.000288 seconds.
+  path: Assets/topics/08 normal mapping/materials/Ocean.mat
+  artifactKey: Guid(431cb1ed7c6a4474ca12178a70194f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/08 normal mapping/materials/Ocean.mat using Guid(431cb1ed7c6a4474ca12178a70194f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08bc542290a22aeedc3aa18956899b27') in 0.063605 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000602 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Nodes/GPUInstancingIconOFF.png
-  artifactKey: Guid(486c7766baaf21b46afb63c1121ef03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Nodes/GPUInstancingIconOFF.png using Guid(486c7766baaf21b46afb63c1121ef03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb7f35df93c1ddb192cfc103490d052') in 0.032424 seconds 
+  Time since last request: 0.000250 seconds.
+  path: Assets/topics/08 normal mapping/materials/noise land.mat
+  artifactKey: Guid(9b75338b4146547a8b25c47237dbf187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/08 normal mapping/materials/noise land.mat using Guid(9b75338b4146547a8b25c47237dbf187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18ac5a8c6678e19deedb97f36e55d7f') in 0.045255 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000562 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/blue.png
-  artifactKey: Guid(826f80ee0ad07444c8558af826a4df2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/Textures/blue.png using Guid(826f80ee0ad07444c8558af826a4df2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3decf28498d0ff297380c36f905339f7') in 0.034667 seconds 
+  Time since last request: 0.000320 seconds.
+  path: Assets/topics/08 normal mapping/materials/transparency sphere.mat
+  artifactKey: Guid(860b1261f69664530aac530a68584c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/08 normal mapping/materials/transparency sphere.mat using Guid(860b1261f69664530aac530a68584c27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7eb7295c7c6c56dcf689f823c9fb89b') in 0.037907 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000491 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/BlueNormalBaseSquare.png
-  artifactKey: Guid(d179c8744f837da49ab92aae04d1ae1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Nodes/BlueNormalBaseSquare.png using Guid(d179c8744f837da49ab92aae04d1ae1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7df91efaaae7cd803325a7a1ac3ae49') in 0.028507 seconds 
+  Time since last request: 72.499916 seconds.
+  path: Assets/topics/09 image based lighting/scene/image based lighting.unity
+  artifactKey: Guid(e3f676a869183435c9558c3a8b1808f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/scene/image based lighting.unity using Guid(e3f676a869183435c9558c3a8b1808f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d710906aab1eed9bf3b154cefed4c6') in 0.014965 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/FitView.png
-  artifactKey: Guid(1def740f2314c6b4691529cadeee2e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/FitView.png using Guid(1def740f2314c6b4691529cadeee2e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7254fcee18a3b7446fa6483f4585c01') in 0.029704 seconds 
+  Time since last request: 447.140466 seconds.
+  path: Assets/topics/09 image based lighting/shaders/fresnel.shader
+  artifactKey: Guid(cef5d2d3a915247fdad2368ce6c30a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/fresnel.shader using Guid(cef5d2d3a915247fdad2368ce6c30a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21487ff9f1e9999ab80bddc37ee3f28d') in 0.005690 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000984 seconds.
-  path: Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CircularToggle_ON_Dark.png
-  artifactKey: Guid(ac0860a6a77e29d4091ba790a17daa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AmplifyShaderEditor/Plugins/EditorResources/UI/Buttons/CircularToggle_ON_Dark.png using Guid(ac0860a6a77e29d4091ba790a17daa0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae9afdd6d51e7a804ccee7164fc0f2d') in 0.021051 seconds 
+  Time since last request: 159.290244 seconds.
+  path: Assets/topics/09 image based lighting/shaders/fresnel.shader
+  artifactKey: Guid(cef5d2d3a915247fdad2368ce6c30a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/fresnel.shader using Guid(cef5d2d3a915247fdad2368ce6c30a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02add9c7d62ecd5f4a165ebac13432c') in 0.003757 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2115.250460 seconds.
-  path: Assets/topics/08 normal mapping/shaders/displacement.shader
-  artifactKey: Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/displacement.shader using Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47d098cc94fa69bf81b7f12b3ec0d8f') in 0.011648 seconds 
+  Time since last request: 20.036271 seconds.
+  path: Assets/topics/09 image based lighting/shaders/fresnel.shader
+  artifactKey: Guid(cef5d2d3a915247fdad2368ce6c30a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/fresnel.shader using Guid(cef5d2d3a915247fdad2368ce6c30a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5be2d35953786268e1f723844e9b2c') in 0.003793 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.638998 seconds.
-  path: Assets/topics/08 normal mapping/shaders/displacement.shader
-  artifactKey: Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/displacement.shader using Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c3c905f07aad6eedb5b450bc4b104b') in 0.006099 seconds 
+  Time since last request: 8.193962 seconds.
+  path: Assets/topics/09 image based lighting/shaders/fresnel.shader
+  artifactKey: Guid(cef5d2d3a915247fdad2368ce6c30a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/fresnel.shader using Guid(cef5d2d3a915247fdad2368ce6c30a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f39e7ee127bd86a2e96b2f85f0227f') in 0.005110 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.454875 seconds.
-  path: Assets/topics/08 normal mapping/shaders/displacement.shader
-  artifactKey: Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/displacement.shader using Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c721df2053b1f834c53658f413cf7b70') in 0.005122 seconds 
+  Time since last request: 10.784882 seconds.
+  path: Assets/topics/09 image based lighting/shaders/fresnel.shader
+  artifactKey: Guid(cef5d2d3a915247fdad2368ce6c30a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/fresnel.shader using Guid(cef5d2d3a915247fdad2368ce6c30a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35af93a102c382308f6ab353215e3f8') in 0.003710 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 207.382336 seconds.
-  path: Assets/topics/08 normal mapping/shaders/displacement.shader
-  artifactKey: Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/displacement.shader using Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3240b9babfc789dc07d553acc93aaf3') in 0.008229 seconds 
+  Time since last request: 192.134072 seconds.
+  path: Assets/topics/09 image based lighting/shaders/IBL fresnel and roughness.shader
+  artifactKey: Guid(b286fc326424848feb063d76cb623941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/IBL fresnel and roughness.shader using Guid(b286fc326424848feb063d76cb623941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9efa33404b2c09d94351fff91c9e3bf6') in 0.013027 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.039272 seconds.
-  path: Assets/topics/08 normal mapping/shaders/displacement.shader
-  artifactKey: Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/displacement.shader using Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061dccd53cb58cc6720e94ade26a7ef6') in 0.005449 seconds 
+  Time since last request: 11.897330 seconds.
+  path: Assets/topics/09 image based lighting/shaders/IBL with fresnel.shader
+  artifactKey: Guid(1fd9dddbaa37d41aa91e3caee4cc86ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/shaders/IBL with fresnel.shader using Guid(1fd9dddbaa37d41aa91e3caee4cc86ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1a479db0cf01416e05327d18c1d135') in 0.020839 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.936945 seconds.
-  path: Assets/topics/08 normal mapping/shaders/displacement.shader
-  artifactKey: Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/displacement.shader using Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b003887067e92a112402f332e838ce13') in 0.006395 seconds 
+  Time since last request: 964.660265 seconds.
+  path: Assets/topics/09 image based lighting/materials/fresnel.mat
+  artifactKey: Guid(d8b21b1422a764447bd3378afbf2a715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/materials/fresnel.mat using Guid(d8b21b1422a764447bd3378afbf2a715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f58cf777f7b2201ff0770972109fc5') in 0.046454 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.655994 seconds.
-  path: Assets/topics/08 normal mapping/shaders/displacement.shader
-  artifactKey: Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/displacement.shader using Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ffa6926cea0835ebfd32c4f76fdd30') in 0.005808 seconds 
+  Time since last request: 0.000348 seconds.
+  path: Assets/topics/09 image based lighting/materials/IBL with fresnel.mat
+  artifactKey: Guid(9e77ad94ee7a4409f8f8f8debbe9ec95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/materials/IBL with fresnel.mat using Guid(9e77ad94ee7a4409f8f8f8debbe9ec95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6c59c14427add6d2c64155da9b7976') in 0.107809 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.337175 seconds.
-  path: Assets/topics/08 normal mapping/shaders/displacement.shader
-  artifactKey: Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/displacement.shader using Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ce58fd3399f45edabca3ff18f8520a') in 0.008481 seconds 
+  Time since last request: 0.000335 seconds.
+  path: Assets/topics/09 image based lighting/materials/specular IBL.mat
+  artifactKey: Guid(d3013da9db1e24c25abe02d4f5997981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/materials/specular IBL.mat using Guid(d3013da9db1e24c25abe02d4f5997981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ce2acb2932e226384188f8d4891a6d') in 0.114338 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005605 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.390 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2391ms)
+		BeginReloadAssembly (346ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (145ms)
+		EndReloadAssembly (1911ms)
+			LoadAssemblies (241ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (653ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (122ms)
+			SetupLoadedEditorAssemblies (521ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (400ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (35ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1872 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 182.5 MB.
+System memory in use after: 182.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2824.
+Total: 4.867200 ms (FindLiveObjects: 0.374700 ms CreateObjectMapping: 0.167200 ms MarkObjects: 4.102500 ms  DeleteObjects: 0.220500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.426113 seconds.
-  path: Assets/topics/08 normal mapping/shaders/displacement.shader
-  artifactKey: Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/displacement.shader using Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1799a88df26be88bb7a6df3882f9e8') in 0.009453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 47.629770 seconds.
-  path: Assets/topics/08 normal mapping/shaders/displacement.shader
-  artifactKey: Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/displacement.shader using Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f952d5b3ce0cbf4c1a06aa702207a3ce') in 0.008815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.688740 seconds.
-  path: Assets/topics/08 normal mapping/shaders/displacement.shader
-  artifactKey: Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/displacement.shader using Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ada67a56c0abeac195fb59c38f9847') in 0.004594 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1862.610935 seconds.
-  path: Assets/topics/08 normal mapping/shaders/refraction.shader
-  artifactKey: Guid(62adc40e33ef44bb7a98bcc1e9fd8a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/refraction.shader using Guid(62adc40e33ef44bb7a98bcc1e9fd8a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25da4acb529dcc5ba1f678c369fc749') in 0.023141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1385.420097 seconds.
-  path: Assets/topics/08 normal mapping/shaders/refraction.shader
-  artifactKey: Guid(62adc40e33ef44bb7a98bcc1e9fd8a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/refraction.shader using Guid(62adc40e33ef44bb7a98bcc1e9fd8a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239204b288f4cc2e85fde8ea46d331de') in 0.005949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.194263 seconds.
-  path: Assets/topics/08 normal mapping/shaders/transparency.shader
-  artifactKey: Guid(f8b7071c1af094a74b0c2c5403f4e83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/transparency.shader using Guid(f8b7071c1af094a74b0c2c5403f4e83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c971852bf7afade2ea16ce2f37129c') in 0.016942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.695267 seconds.
-  path: Assets/topics/08 normal mapping/shaders/normal mapping.shader
-  artifactKey: Guid(f0c37ed74753b43e7b83d207e7464691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/normal mapping.shader using Guid(f0c37ed74753b43e7b83d207e7464691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c5907ad343534cb9ae3de763e91a59') in 0.006178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.463960 seconds.
-  path: Assets/topics/08 normal mapping/shaders/displacement.shader
-  artifactKey: Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/shaders/displacement.shader using Guid(a9dabe03cf0c74e87a3ddbfea0e0a528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72843f6341fb58f3ffff424e1825913e') in 0.004842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 184.858675 seconds.
-  path: Assets/topics/08 normal mapping/materials/normal mapping.mat
-  artifactKey: Guid(6f5b4cc46968f49e8ba7970abfc8133e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/materials/normal mapping.mat using Guid(6f5b4cc46968f49e8ba7970abfc8133e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8772cb63acb6e6d4c70fe22153ec4eae') in 0.111201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.051846 seconds.
-  path: Assets/topics/08 normal mapping/textures/water
-  artifactKey: Guid(eae72ce025991fa49adaa873c845e21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/topics/08 normal mapping/textures/water using Guid(eae72ce025991fa49adaa873c845e21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d00ff0f4630fc0026208e6f9e832a6') in 0.005907 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  Time since last request: 261545.840152 seconds.
+  path: Assets/topics/09 image based lighting/materials/IBL fresnel and roughness.mat
+  artifactKey: Guid(961e03f1240fc4edfa78c2287d7f27bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topics/09 image based lighting/materials/IBL fresnel and roughness.mat using Guid(961e03f1240fc4edfa78c2287d7f27bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046bd7989fc85251ff30ae9ee1145f83') in 1.337968 seconds 
