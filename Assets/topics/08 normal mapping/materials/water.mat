@@ -19,9 +19,45 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _albedo:
         m_Texture: {fileID: 2800000, guid: 39385e1ecf24c4d31baa1fa25828ba12, type: 3}
-        m_Scale: {x: 3, y: 2}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _displacementMap:
         m_Texture: {fileID: 2800000, guid: 44fabf7668d38457693df5e26dde988d, type: 3}
@@ -33,13 +69,35 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _displacementIntensity: 0.031
-    - _gloss: 0.491
-    - _normalIntensity: 0.632
-    - _opacity: 0.169
-    - _refractionIntensity: 0.056
-    - _specularContrast: 100
-    - _specularIntensity: 1
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DepthDensity: 0.5
+    - _DetailNormalMapScale: 1
+    - _DistanceDensity: 0.1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - _displacementIntensity: 0.284
+    - _foam: 0.5
+    - _gloss: 0.271
+    - _normalIntensity: 0.168
+    - _opacity: 0.533
+    - _refractionIntensity: 0.15
     m_Colors:
-    - _pan: {r: 0.64, g: 0.33, b: 0.34, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DeepColor: {r: 0, g: 0.05, b: 0.19, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FarColor: {r: 0.04, g: 0.27, b: 0.75, a: 1}
+    - _ShallowColor: {r: 0.44, g: 0.95, b: 0.36, a: 1}
+    - _pan: {r: 26.1, g: 3.7, b: -3.48, a: -7.62}
   m_BuildTextureStacks: []

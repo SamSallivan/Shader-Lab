@@ -36,6 +36,9 @@
             sampler2D _normalMap;
             sampler2D _displacementMap;
             sampler2D _BackgroundTex;
+
+            sampler2D _CameraDepthTexture;
+            
             float _gloss;
             float _normalIntensity;
             float _displacementIntensity;
@@ -63,6 +66,8 @@
                 // create a variable to hold two float2 direction vectors that we'll use to pan our textures
                 float4 uvPan : TEXCOORD5;
                 float4 screenUV : TEXCOORD6;
+                float4 screenPos : TEXCOORD7;
+                
             };
 
             Interpolators vert (MeshData v)
@@ -72,7 +77,7 @@
                 
                 // panning
                 o.uvPan = _pan * _Time.x;
-                //o.uvPan = float4(float2(0.9, 0.2) * _Time.x, float2(0.5, -0.2) * _Time.x);
+                o.uvPan = float4(float2(0.9, 0.2) * _Time.x, float2(0.5, -0.2) * _Time.x);
 
                 // add our panning to our displacement texture sample
                 float height = tex2Dlod(_displacementMap, float4(o.uv + o.uvPan.xy, 0, 0)).r;
@@ -85,7 +90,8 @@
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 
                 o.screenUV = ComputeGrabScreenPos(o.vertex);
-                
+                o.screenPos = ComputeScreenPos(o.vertex);
+
                 o.posWorld = mul(unity_ObjectToWorld, v.vertex);
                 
                 return o;
@@ -128,10 +134,10 @@
                 float diffuseFalloff = max(0, dot(normal, lightDirection));
                 float specularFalloff = max(0, dot(normal, halfDirection));
 
-                float3 specular = pow(specularFalloff, _gloss * MAX_SPECULAR_POWER + 0.0001) * _gloss * lightColor;
+                float3 specular = pow(specularFalloff, MAX_SPECULAR_POWER + 0.0001) * _gloss * lightColor;
                 float3 diffuse = diffuseFalloff * surfaceColor * lightColor;
-
                 float3 color = (diffuse * _opacity) + (background * (1 - _opacity)) + specular;
+
                 return float4(color, 1);
             }
             ENDCG

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ocean
+  m_Shader: {fileID: 4800000, guid: a167f62e7787f664b92d1a4d2e53b6cb, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FoamTexture:
+        m_Texture: {fileID: 2800000, guid: 581fcfd543a4445829bb923bace720da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 716c3c5f4908a0c4bb72e07c4d5fee7b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _albedo:
+        m_Texture: {fileID: 2800000, guid: 39385e1ecf24c4d31baa1fa25828ba12, type: 3}
+        m_Scale: {x: 3, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _displacementMap:
+        m_Texture: {fileID: 2800000, guid: 317845e43b4eb43a1bb2d17b3ed0d696, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _normalMap:
+        m_Texture: {fileID: 2800000, guid: ed512d00c2b0c0748bcb5cf3fce1a4c8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DepthDensity: 0.000045
+    - _DistanceDensity: 0.067
+    - _EdgeFoamDepth: 0.36
+    - _TextureDistort: 0.2
+    - _depthDensity: 0.000019
+    - _diffuseIntensity: 1
+    - _displacementIntensity: 0.117
+    - _distanceDensity: 0.086
+    - _foam: 0.607
+    - _foamIntensity: 0.75
+    - _gloss: 0.1
+    - _normalIntensity: 0.75
+    - _opacity: 0.787
+    - _refractionIntensity: 0.047
+    - _specularContrast: 100
+    - _specularIntensity: 1
+    - _specularPower: 1000
+    m_Colors:
+    - _DeepColor: {r: 0.20392159, g: 1, b: 0.4156863, a: 1}
+    - _EdgeFoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FarColor: {r: 0.08235294, g: 0.29803923, b: 0.7058824, a: 1}
+    - _ShallowColor: {r: 1, g: 1, b: 0.89019614, a: 1}
+    - _deepColor: {r: 0.20392157, g: 1, b: 0.41568628, a: 1}
+    - _farColor: {r: 0.08235294, g: 0.29803923, b: 0.7058824, a: 1}
+    - _pan: {r: 0.64, g: 0.33, b: 0.34, a: 1}
+    - _shallowColor: {r: 0.20392159, g: 1, b: 0.4156863, a: 1}
+  m_BuildTextureStacks: []

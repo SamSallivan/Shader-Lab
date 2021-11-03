@@ -107,8 +107,9 @@ Shader "examples/week 5/Assignment"
 
                 float3 worldPos = mul(unity_ObjectToWorld, v.vertex);
                 float2 worldUV = worldPos.xz * 0.02 * _scale;
-
-                o.wave = warp(worldUV* _scale).x * _displacement * v.color;
+                
+                o.wave = fractal_noise(worldUV* _scale).x * _displacement * v.color;
+                //o.wave = warp(worldUV* _scale).x * _displacement * v.color;
                 v.vertex.y += o.wave;
                 o.color = warp(v.uv* _scale).yzw;
 
@@ -123,7 +124,9 @@ Shader "examples/week 5/Assignment"
             {
                 float3 color = i.color * _colorIntensity; 
 
+                return float4(warp(i.uv* _scale).x,0,0,1);
                 return float4(color, 1.0);
+                
             }
             ENDCG
         }
