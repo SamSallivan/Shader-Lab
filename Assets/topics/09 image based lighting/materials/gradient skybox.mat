@@ -18,10 +18,16 @@ Material:
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _texCube:
+        m_Texture: {fileID: 8900000, guid: 67fc12ac8848a42579f4c8216a65af7a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _contrast: 5.31
     - _offset: 0.28
     m_Colors:
     - _colorHigh: {r: 1, g: 0.5613208, b: 0.586551, a: 1}
     - _colorLow: {r: 0.0036044791, g: 0.09339392, b: 0.254717, a: 1}
+  m_BuildTextureStacks: []

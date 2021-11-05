@@ -43,28 +43,29 @@ Material:
     m_Floats:
     - _DepthDensity: 0.000045
     - _DistanceDensity: 0.067
-    - _EdgeFoamDepth: 0.36
+    - _EdgeFoamDepth: 0.3
     - _TextureDistort: 0.2
     - _depthDensity: 0.000019
     - _diffuseIntensity: 1
-    - _displacementIntensity: 0.117
-    - _distanceDensity: 0.086
+    - _displacementIntensity: 0.24
+    - _distanceDensity: 0.077
     - _foam: 0.607
-    - _foamIntensity: 0.75
+    - _foamIntensity: 1.13
     - _gloss: 0.1
     - _normalIntensity: 0.75
-    - _opacity: 0.787
-    - _refractionIntensity: 0.047
+    - _opacity: 0.75
+    - _reflectivity: 0.125
+    - _refractionIntensity: 0.5
     - _specularContrast: 100
     - _specularIntensity: 1
     - _specularPower: 1000
     m_Colors:
     - _DeepColor: {r: 0.20392159, g: 1, b: 0.4156863, a: 1}
-    - _EdgeFoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EdgeFoamColor: {r: 1, g: 0.6367924, b: 0.6367924, a: 1}
     - _FarColor: {r: 0.08235294, g: 0.29803923, b: 0.7058824, a: 1}
     - _ShallowColor: {r: 1, g: 1, b: 0.89019614, a: 1}
-    - _deepColor: {r: 0.20392157, g: 1, b: 0.41568628, a: 1}
-    - _farColor: {r: 0.08235294, g: 0.29803923, b: 0.7058824, a: 1}
+    - _deepColor: {r: 0, g: 0, b: 0, a: 1}
+    - _farColor: {r: 0.06666667, g: 0.29988298, b: 0.5176471, a: 1}
     - _pan: {r: 0.64, g: 0.33, b: 0.34, a: 1}
-    - _shallowColor: {r: 0.20392159, g: 1, b: 0.4156863, a: 1}
+    - _shallowColor: {r: 1, g: 0.83579624, b: 0.56078434, a: 1}
   m_BuildTextureStacks: []

@@ -41,10 +41,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _displacementIntensity: 0
-    - _fresnelPower: 0
+    - _displacementIntensity: 0.5
+    - _fresnelPower: 10
     - _gloss: 0.859
-    - _normalIntensity: 0
+    - _normalIntensity: 0.19
     - _reflectivity: 1
     m_Colors: []
   m_BuildTextureStacks: []

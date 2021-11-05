@@ -26,6 +26,8 @@ Shader "examples/week 8/Ocean"
 
         _gloss ("Gloss", Range(0,1)) = 1
         _specularPower ("Specular Power", float) = 1000
+        
+        _reflectivity ("Reflectivity", Range(0.0, 1.0)) = 1.0
 
         _refractionIntensity ("Refraction intensity", Range(0, 0.5)) = 0.1
 
@@ -86,6 +88,7 @@ Shader "examples/week 8/Ocean"
 
             float _gloss;
             float _specularPower;
+            float _reflectivity;
 
             float _refractionIntensity;
 
@@ -196,7 +199,7 @@ Shader "examples/week 8/Ocean"
                 float distance = exp(-_distanceDensity * length(_WorldSpaceCameraPos - i.worldPos));
 
                  
-                float3 baseColor = _shallowColor;// * background;
+                float3 baseColor = _shallowColor * background;
                 baseColor = lerp(_deepColor, baseColor, transmittance);
                 baseColor = lerp(_farColor, baseColor, distance);
 
@@ -208,7 +211,8 @@ Shader "examples/week 8/Ocean"
                 //return float4(foamColor + baseColor, 1);
                 
 
-                float edgeFoamMask = round(exp(-depth / _EdgeFoamDepth));
+                //float edgeFoamMask = round(exp(-depth / _EdgeFoamDepth));
+                float edgeFoamMask = exp(-depth / _EdgeFoamDepth);
                 float3 edgeFoamColor = lerp(0, _EdgeFoamColor, edgeFoamMask);;
 
 
@@ -228,10 +232,11 @@ Shader "examples/week 8/Ocean"
                 float specularFalloff = saturate(dot(view, _WorldSpaceLightPos0));
                 specularFalloff = round(saturate(pow(specularFalloff, _specularPower)));
                 float3 specular = lerp(0, lightColor, specularFalloff);
-
+                
+                float3 reflectedColor = UNITY_SAMPLE_TEXCUBE(unity_SpecCube0, reflect(viewDirection, normal))*_reflectivity;
                 
                 //float3 color = tex2D(_MainTex, i.uv);
-                float3 color = (diffuse * _opacity) + (background * (1 - _opacity)) + foamColor + edgeFoamColor; // + (background * (1 - _opacity))
+                float3 color = (diffuse * _opacity) + (background * (1 - _opacity)) + foamColor + edgeFoamColor + reflectedColor; // + (background * (1 - _opacity))
                 return float4(color, 1);
             }
             ENDCG

@@ -35,12 +35,16 @@ Material:
         m_Texture: {fileID: 2800000, guid: fec17e2837efd489b8f67971177a1f22, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _roughness:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _displacementIntensity: 0
-    - _fresnelPower: 2.47
-    - _gloss: 0.859
+    - _fresnelPower: 10
+    - _gloss: 1
     - _normalIntensity: 1
-    - _reflectivity: 0.473
+    - _reflectivity: 1
     m_Colors: []
   m_BuildTextureStacks: []

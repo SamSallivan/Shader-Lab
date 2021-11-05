@@ -71,17 +71,53 @@ Shader "examples/week 5/Cheems"
 
                 o.vertex = UnityObjectToClipPos(v.vertex);
                 o.uv = v.uv;
+
                 return o;
+
             }
 
             float4 frag (Interpolators i) : SV_Target
             {
                 float2 uv = i.uv;
                 float3 color = tex2D(_tex, uv).rgb;
-                
+
+                //float attenuation = LIGHT_ATTENUATION(i);
+
                 return float4(color, 1.0);
             }
             ENDCG
         }
-    }
+    
+    // Pass to render object as a shadow caster
+		Pass 
+		{
+			Name "CastShadow"
+			Tags { "LightMode" = "ShadowCaster" }
+	
+			CGPROGRAM
+			#pragma vertex vert
+			#pragma fragment frag
+			#pragma multi_compile_shadowcaster
+			#include "UnityCG.cginc"
+	
+			struct v2f 
+			{ 
+				V2F_SHADOW_CASTER;
+			};
+	
+			v2f vert( appdata_base v )
+			{
+				v2f o;
+				TRANSFER_SHADOW_CASTER(o)
+				return o;
+			}
+	
+			float4 frag( v2f i ) : COLOR
+			{
+				SHADOW_CASTER_FRAGMENT(i)
+			}
+			ENDCG
+		}
+	}
 }
+

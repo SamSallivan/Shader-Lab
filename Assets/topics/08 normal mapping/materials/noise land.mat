@@ -25,7 +25,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _displacement: 2.5
+    - _displacement: 0.06
     - _highElevation: 0.18
     - _intensity: 0.074
     - _lowElevation: 0
