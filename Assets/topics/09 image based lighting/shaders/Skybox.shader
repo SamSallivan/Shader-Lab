@@ -84,12 +84,10 @@ Shader "examples/week 9/Skybox"
 
 			float4 frag (Interpolators i) : SV_Target
 			{
-					float horizon = abs((i.uv.y * _HorizonIntensity) - _OffsetHorizon);
+				float horizon = abs((i.uv.y * _HorizonIntensity) - _OffsetHorizon);
 
-				// uv for the sky
 				float2 skyUV = i.worldPos.xz / i.worldPos.y;
 
-				// moving clouds
 				float baseNoise = tex2D(_BaseNoise, (skyUV - _Time.x) * _BaseNoiseScale).x;
 
 				float noise1 = tex2D(_Distort, ((skyUV + baseNoise) - (_Time.x * _Speed)) * _DistortScale);
@@ -101,15 +99,13 @@ Shader "examples/week 9/Skybox"
 				float clouds = saturate(smoothstep(_CloudCutoff, _CloudCutoff + _Fuzziness, finalNoise));
 				float cloudsunder = saturate(smoothstep(_CloudCutoff, _CloudCutoff + _Fuzziness + _FuzzinessUnder , noise2) * clouds);
 				
-				//float3 cloudsColored = lerp(_CloudColorDayEdge, _CloudColorDayMain, clouds) * clouds;
-				//float3 cloudsColoredNight = lerp(_CloudColorNightEdge, _CloudColorNightMain , clouds) * clouds;
 				
 				float3 cloudsColored = lerp(_CloudColorDayEdge, lerp(_CloudColorDayUnder, _CloudColorDayMain, cloudsunder), clouds) * clouds;
 				float3 cloudsColoredNight = lerp(_CloudColorNightEdge, lerp(_CloudColorNightUnder,_CloudColorNightMain , cloudsunder), clouds) * clouds;
 				cloudsColoredNight *= horizon;
 				
-				cloudsColored = lerp(cloudsColoredNight, cloudsColored, saturate(_WorldSpaceLightPos0.y)); // lerp the night and day clouds over the light direction
-				cloudsColored += (2 * cloudsColored * horizon); // add some extra brightness
+				cloudsColored = lerp(cloudsColoredNight, cloudsColored, saturate(_WorldSpaceLightPos0.y));
+				cloudsColored += (2 * cloudsColored * horizon);
 				
 				float cloudsNegative = (1 - clouds) * horizon;
 
@@ -130,12 +126,10 @@ Shader "examples/week 9/Skybox"
 
 				float3 gradientDay = lerp(_DayBottomColor, _DayTopColor, saturate(horizon));
 
-				// gradient night sky
 				float3 gradientNight = lerp(_NightBottomColor, _NightTopColor, saturate(horizon));
 
 				float3 skyGradients = lerp(gradientNight, gradientDay, saturate(_WorldSpaceLightPos0.y)) * cloudsNegative;
 
-				// horizon glow / sunset/rise
 				float sunset = saturate((1 - horizon) * saturate(_WorldSpaceLightPos0.y * 5));
 
 
@@ -144,7 +138,6 @@ Shader "examples/week 9/Skybox"
 				float3 horizonGlow = saturate((1 - horizon * 5) * saturate(_WorldSpaceLightPos0.y * 10)) * _HorizonColorDay;// 
 				
 				float3 color = skyGradients + sunAndMoon + sunsetColoured + cloudsColored + horizonGlow;
-				//UNITY_APPLY_FOG(i.fogCoord, combined);
 				return float4(color,1);
 			
 			}

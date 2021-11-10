@@ -2,34 +2,6 @@
 {
 	Properties
 	{
-		[Header(Main Cloud Settings)]
-		_BaseNoise("Base Noise", 2D) = "black" {}
-		_Distort("Distort", 2D) = "black" {}
-		_SecNoise("Secondary Noise", 2D) = "black" {}
-		_BaseNoiseScale("Base Noise Scale",  Range(0, 1)) = 0.2
-		_DistortScale("Distort Noise Scale",  Range(0, 1)) = 0.06
-		_SecNoiseScale("Secondary Noise Scale",  Range(0, 1)) = 0.05
-		_Distortion("Extra Distortion",  Range(0, 1)) = 0.1
-		_Speed("Movement Speed",  Range(0, 10)) = 1.4
-		_CloudCutoff("Cloud Cutoff",  Range(0, 1)) = 0.3
-		_Fuzziness("Cloud Fuzziness",  Range(0, 1)) = 0.04
-		_FuzzinessUnder("Cloud Fuzziness Under",  Range(0, 1)) = 0.01
-		[Toggle(FUZZY)] _FUZZY("Extra Fuzzy clouds", Float) = 1
-
-		[Header(Day Clouds Settings)]
-		_CloudColorDayEdge("Clouds Edge Day", Color) = (1,1,1,1)
-		_CloudColorDayMain("Clouds Main Day", Color) = (0.8,0.9,0.8,1)
-		_CloudColorDayUnder("Clouds Under Day", Color) = (0.6,0.7,0.6,1)
-		_Brightness("Cloud Brightness",  Range(1, 10)) = 2.5
-		[Header(Night Sky Settings)]
-		_NightTopColor("Night Sky Color Top", Color) = (0,0,0,1)
-		_NightBottomColor("Night Sky Color Bottom", Color) = (0,0,0.2,1)
-
-		[Header(Night Clouds Settings)]
-		_CloudColorNightEdge("Clouds Edge Night", Color) = (0,1,1,1)
-		_CloudColorNightMain("Clouds Main Night", Color) = (0,0.2,0.8,1)
-		_CloudColorNightUnder("Clouds Under Night", Color) = (0,0.2,0.6,1)
-
 		 [Header(Stars Settings)]
 		_Stars("Stars Texture", 2D) = "black" {}
 		_StarsCutoff("Stars Cutoff",  Range(0, 1)) = 0.08
@@ -57,6 +29,33 @@
 		_DayTopColor("Day Sky Color Top", Color) = (0.4,1,1,1)
 		_DayBottomColor("Day Sky Color Bottom", Color) = (0,0.8,1,1)
 
+		[Header(Main Cloud Settings)]
+		_BaseNoise("Base Noise", 2D) = "black" {}
+		_Distort("Distort", 2D) = "black" {}
+		_SecNoise("Secondary Noise", 2D) = "black" {}
+		_BaseNoiseScale("Base Noise Scale",  Range(0, 1)) = 0.2
+		_DistortScale("Distort Noise Scale",  Range(0, 1)) = 0.06
+		_SecNoiseScale("Secondary Noise Scale",  Range(0, 1)) = 0.05
+		_Distortion("Extra Distortion",  Range(0, 1)) = 0.1
+		_Speed("Movement Speed",  Range(0, 10)) = 1.4
+		_CloudCutoff("Cloud Cutoff",  Range(0, 1)) = 0.3
+		_Fuzziness("Cloud Fuzziness",  Range(0, 1)) = 0.04
+		_FuzzinessUnder("Cloud Fuzziness Under",  Range(0, 1)) = 0.01
+		[Toggle(FUZZY)] _FUZZY("Extra Fuzzy clouds", Float) = 1
+
+		[Header(Day Clouds Settings)]
+		_CloudColorDayEdge("Clouds Edge Day", Color) = (1,1,1,1)
+		_CloudColorDayMain("Clouds Main Day", Color) = (0.8,0.9,0.8,1)
+		_CloudColorDayUnder("Clouds Under Day", Color) = (0.6,0.7,0.6,1)
+		_Brightness("Cloud Brightness",  Range(1, 10)) = 2.5
+		[Header(Night Sky Settings)]
+		_NightTopColor("Night Sky Color Top", Color) = (0,0,0,1)
+		_NightBottomColor("Night Sky Color Bottom", Color) = (0,0,0.2,1)
+
+		[Header(Night Clouds Settings)]
+		_CloudColorNightEdge("Clouds Edge Night", Color) = (0,1,1,1)
+		_CloudColorNightMain("Clouds Main Night", Color) = (0,0.2,0.8,1)
+		_CloudColorNightUnder("Clouds Under Night", Color) = (0,0.2,0.6,1)
 	}
 		SubShader
 		{
@@ -191,7 +190,7 @@
 
 				// apply fog
 
-			   float3 combined = skyGradients + sunAndMoon + sunsetColoured + cloudsColored + horizonGlow;
+			   float3 combined = skyGradients + sunAndMoon + sunsetColoured + stars + cloudsColored + horizonGlow;
 			   UNITY_APPLY_FOG(i.fogCoord, combined);
 			   return float4(combined,1);
 

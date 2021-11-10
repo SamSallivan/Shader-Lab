@@ -233,7 +233,7 @@ Shader "examples/week 8/Ocean"
                 specularFalloff = round(saturate(pow(specularFalloff, _specularPower)));
                 float3 specular = lerp(0, lightColor, specularFalloff);
                 
-                float3 reflectedColor = UNITY_SAMPLE_TEXCUBE(unity_SpecCube0, reflect(viewDirection, normal))*_reflectivity;
+                float3 reflectedColor = UNITY_SAMPLE_TEXCUBE(unity_SpecCube0, reflect(-viewDirection, normal))*_reflectivity;
                 
                 //float3 color = tex2D(_MainTex, i.uv);
                 float3 color = (diffuse * _opacity) + (background * (1 - _opacity)) + foamColor + edgeFoamColor + reflectedColor; // + (background * (1 - _opacity))
