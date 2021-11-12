@@ -48,7 +48,7 @@
             {
                 float3 color = 0;
                 float2 uv = i.uv;
-        float modifier = length(uv*2-1);
+                float modifier = length(uv*2-1);
                 float offset = MAX_OFFSET * _intensity*modifier;
                 
                 float r = tex2D(_MainTex, uv - offset).r;

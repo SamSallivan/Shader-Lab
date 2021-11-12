@@ -32,7 +32,7 @@ Material:
     - _diffuseLightSteps: 4
     - _gloss: 1
     - _specularLightSteps: 2
-    - _steps: 2.38
+    - _steps: 2.5
     m_Colors:
     - _ambientColor: {r: 0.7, g: 0.05, b: 0.15, a: 1}
     - _surfaceColor: {r: 0.4, g: 0.1, b: 0.9, a: 1}

@@ -43,6 +43,13 @@
                 o.uv = v.uv;
                 return o;
             }
+            
+            float2 screenDistort(float2 uv) {
+                uv -= 0.5;
+                uv = uv*(1./1.2+2.*uv.x*uv.x*uv.y*uv.y);
+                uv += .5;
+                return uv;
+            }
 
             float4 frag (Interpolators i) : SV_Target
             {
@@ -54,7 +61,8 @@
                 float radius = pow(length(uv), 2);
                 float distort = 1 + radius * _distortion;
                 uv = uv * distort * _scale + 0.5;
-
+                
+                //uv = screenDistort(uv);
 
                 color = tex2D(_MainTex, uv);
 

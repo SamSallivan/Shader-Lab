@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ditherPattern:
-        m_Texture: {fileID: 2800000, guid: 37d69a8f7cc3e4996ac5edbc9e90b2e3, type: 3}
+        m_Texture: {fileID: 2800000, guid: cc688cf8c8786f6459c4b4185ca6d492, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _tex:
@@ -34,6 +34,6 @@ Material:
     m_Ints: []
     m_Floats:
     - _resolution: 256
-    - _threshold: -0.09
+    - _threshold: -0.25
     m_Colors: []
   m_BuildTextureStacks: []
