@@ -29,7 +29,7 @@ Shader "examples/week 10/VHS"
             #pragma vertex vert
             #pragma fragment frag
             #include "UnityCG.cginc"
-            
+             
             #define MAX_OFFSET 0.15
 
             sampler2D _MainTex; float4 _MainTex_TexelSize;

@@ -98,6 +98,7 @@ Material:
     - _SunRadius: 0.45
     - _UVSec: 0
     - _ZWrite: 1
+    - _stencilRef: 1
     m_Colors:
     - _CloudColorDayEdge: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
     - _CloudColorDayMain: {r: 0.37686157, g: 0.3597811, b: 0.46226418, a: 1}
@@ -109,7 +110,7 @@ Material:
     - _DayBottomColor: {r: 0.5169448, g: 0.19215685, b: 1, a: 1}
     - _DayTopColor: {r: 0.5613208, g: 0.5778603, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HorizonColorDay: {r: 1, g: 0.8089804, b: 0.30588233, a: 1}
+    - _HorizonColorDay: {r: 0.95294124, g: 1, b: 1, a: 1}
     - _HorizonColorNight: {r: 0, g: 0.35471684, b: 0.4433962, a: 1}
     - _MoonColor: {r: 1, g: 0.9783461, b: 0.7783019, a: 1}
     - _SunColor: {r: 1, g: 1, b: 1, a: 1}

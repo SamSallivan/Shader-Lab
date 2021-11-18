@@ -35,11 +35,21 @@ Shader "examples/week 9/Skybox"
 		_CloudColorNightEdge("Clouds Edge Night", Color) = (0,1,1,1)
 		_CloudColorNightMain("Clouds Main Night", Color) = (0,0.2,0.8,1)
 		_CloudColorNightUnder("Clouds Under Night", Color) = (0,0.2,0.6,1)
+		
+        _stencilRef ("Stencil Ref", int) = 2
     }
     SubShader
     {
         Tags { "RenderType"="Opaque" }
         LOD 200
+		
+		Stencil
+		{
+			Ref 1
+			Comp Always
+			Pass Replace
+			
+        }
 
         Pass
 		{

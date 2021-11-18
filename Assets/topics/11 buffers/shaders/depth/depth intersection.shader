@@ -22,7 +22,7 @@
             float _size;
 
             struct MeshData
-            {
+            {   
                 float4 vertex : POSITION;
             };
 
